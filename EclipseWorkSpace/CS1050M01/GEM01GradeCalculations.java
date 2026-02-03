@@ -60,6 +60,35 @@ public class GEM01GradeCalculations
 		// does math for category one of grade
 		double finalTwo = gradeValTwo * CLASS_PART_TWO;
 
+		// does math for category one of grade
+		double finalThree = gradeValThree * CLASS_PART_THREE;
+
+		// does math for category one of grade
+		double finalFour = gradeValFour * CLASS_PART_TWO;
+
+		// does math for category one of grade
+		double finalFive = gradeValFive * CLASS_PART_TWO;
+
+		// total of the calculated grades
+		double finalGrade = finalFive + finalFour + finalThree + finalTwo + finalOne;
+		// series of if statements that based on the calculated number grade tell you a
+		// letter grade
+		if (finalGrade >= 94)
+		{
+			System.out.println("congrats! you have an A a passing grade of " + finalGrade);
+		} else if (finalGrade >= 84)
+		{
+
+			System.out.println("congrats! you have an B a passing grade of " + finalGrade);
+		} else if (finalGrade >= 74)
+		{
+
+			System.out.println("congrats! you have an C a passing grade of" + finalGrade);
+		} else
+		{
+			System.out.println("sorry you have a failing grade of" + finalGrade);
+		}
+
 	}// end of main
 
 }// end of class
