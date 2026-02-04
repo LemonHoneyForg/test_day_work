@@ -38,7 +38,8 @@ public class GuessNumber
 				// Adjusts if too low
 				System.out.println("Your guess is too low");
 			}
-		}
 
+		}
+		keyboardInput.close();
 	}// end of main
 }// end of class

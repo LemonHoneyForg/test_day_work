@@ -21,7 +21,8 @@ public class GEM01GradeCalculations
 		// grade weight .25 = 25%
 		final double CLASS_PART_THREE = .25;
 		// grade weight .2 = 20%
-		// there are five catagorys but the last two are also 20%
+		// there are five catagorys but the last two are also 20% so I re-used
+		// CLASS_PART_TWO
 
 		int gradeValOne;
 
@@ -88,6 +89,8 @@ public class GEM01GradeCalculations
 		{
 			System.out.println("sorry you have a failing grade of " + finalGrade);
 		}
+
+		keyboardInput.close();
 
 	}// end of main
 
