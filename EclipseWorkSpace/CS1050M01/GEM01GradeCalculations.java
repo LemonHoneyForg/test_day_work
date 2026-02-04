@@ -76,18 +76,18 @@ public class GEM01GradeCalculations
 		// letter grade
 		if (finalGrade >= 94)
 		{
-			System.out.println("congrats! you have an A a passing grade of " + finalGrade);
+			System.out.printf("congrats! you have an A a passing grade of %.2f", finalGrade);
 		} else if (finalGrade >= 84)
 		{
 
-			System.out.println("congrats! you have an B a passing grade of " + finalGrade);
+			System.out.printf("congrats! you have an B a passing grade of %.2f", finalGrade);
 		} else if (finalGrade >= 74)
 		{
 
-			System.out.println("congrats! you have an C a passing grade of " + finalGrade);
+			System.out.printf("congrats! you have an C a passing grade of %.2f", finalGrade);
 		} else
 		{
-			System.out.println("sorry you have a failing grade of " + finalGrade);
+			System.out.printf("sorry you have a failing grade of %.2f", finalGrade);
 		}
 
 		keyboardInput.close();
