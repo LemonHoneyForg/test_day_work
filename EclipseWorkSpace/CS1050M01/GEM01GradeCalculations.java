@@ -83,10 +83,10 @@ public class GEM01GradeCalculations
 		} else if (finalGrade >= 74)
 		{
 
-			System.out.println("congrats! you have an C a passing grade of" + finalGrade);
+			System.out.println("congrats! you have an C a passing grade of " + finalGrade);
 		} else
 		{
-			System.out.println("sorry you have a failing grade of" + finalGrade);
+			System.out.println("sorry you have a failing grade of " + finalGrade);
 		}
 
 	}// end of main
