@@ -27,6 +27,8 @@ public class GEM01GradeCalculations
 
 		int gradeValFive = 98;
 
+		// doubles final 1-5 brake up the individual category's weight calculations to
+		// better visualize the math for each
 		// does math for category one of grade with Weight
 		double finalOne = gradeValOne * CLASS_PART_ONE;
 
