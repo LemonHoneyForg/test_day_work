@@ -9,6 +9,13 @@ public class L06MathCharStrings
 
 	public static void main(String[] args)
 	{
+
+		double randomInt = (double) Math.random() * 13 + 1;
+
+		int randomIntTwo = (int) Math.random();
+
+		randomIntTwo = (int) Math.random() * 10 + 1;
+
 		Scanner input = new Scanner(System.in);
 		String firstName;
 
