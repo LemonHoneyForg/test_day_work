@@ -85,9 +85,13 @@ public class GEM01Calculation
 		{
 
 			System.out.printf("congrats! you have an C a passing grade of %.2f", finalGrade);
+		} else if (finalGrade >= 60)
+		{
+
+			System.out.printf("sorry you have a failing grade of D %.2f", finalGrade);
 		} else
 		{
-			System.out.printf("sorry you have a failing grade of %.2f", finalGrade);
+			System.out.printf("sorry you have a failing grade of F %.2f", finalGrade);
 		}
 
 		keyboardInput.close();

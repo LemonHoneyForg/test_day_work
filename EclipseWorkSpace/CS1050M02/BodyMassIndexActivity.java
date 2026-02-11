@@ -13,6 +13,13 @@ public class BodyMassIndexActivity
 	{
 		// Create constand an variables
 		// constants
+
+		final double BMI_ADVISE_FACTOR = 40;
+
+		final double BMI_OVER_FACTOR = 25;
+
+		final double BMI_STANDARD_FACTOR = 18.5;
+
 		final double BMI_US_FACTOR = 703;
 		// factor formula in pounds
 		// Variables
@@ -36,10 +43,28 @@ public class BodyMassIndexActivity
 		// ADD CODE input next double for height
 		height = keyboardInput.nextDouble();
 		// Calculate the user's body mass index.
-		double bmi = weight * BMI_US_FACTOR / (height * height);
+		double bmi = weight * BMI_US_FACTOR / (Math.pow(height, 2));
+
+		if (bmi >= BMI_ADVISE_FACTOR)
+		{
+			System.out.printf("\tYour body mass index (BMI) is in the obese class its ok! "
+					+ "we can help, your numarical BMI is %.2f", bmi);
+		} else if (bmi >= BMI_OVER_FACTOR)
+		{
+
+			System.out.printf("\tYour body mass index (BMI) is in the overweight class if you would like!"
+					+ " we can help, your numarical BMI is %.2f", bmi);
+		} else if (bmi >= BMI_STANDARD_FACTOR)
+		{
+
+			System.out.printf("\tYour body mass index (BMI) is in the standard your numarical BMI is %.2f", bmi);
+		} else
+		{
+			System.out.printf("\tYour body mass index (BMI) is in the underweight class its ok! "
+					+ "we can help, your numarical BMI is %.2f", bmi);
+		}
 
 		// Display the user's BMI.
-		System.out.printf("\tYour body mass index (BMI) is %.2f", bmi);
 
 		keyboardInput.close();
 	}// end of main
