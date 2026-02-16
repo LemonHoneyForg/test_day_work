@@ -23,7 +23,11 @@ public class StringsAndCharsMadlib
 		String adjective;
 
 		String place;
-		// both are char's because we only want the Initial of the last name
+		/*
+		 * both are char's because we only want the Initial of the last name and 'A' of
+		 * the last name and 'A' letter
+		 */
+
 		char lastInitial;
 
 		char favoriteLetter;
