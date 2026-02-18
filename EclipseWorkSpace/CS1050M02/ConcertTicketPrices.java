@@ -29,50 +29,37 @@ public class ConcertTicketPrices
 		userSection = input.next().charAt(0);
 		Character.toUpperCase(userSection);
 
-		if (userSection == sectionF)
+		if ((userSection == sectionF) || (userSection == sectionC) || (userSection == sectionS)
+				|| (userSection == sectionU))
 		{
-			System.out.println("understood Section F what row from 1 through 60?");
+			System.out.println("understood Section " + userSection + " what row from 1 through 60?");
 			userRow = input.nextInt();
 
-		} else if (userSection == sectionC)
-		{
+			if (userRow <= 1)
+			{
+				System.out.println("Invalid row,  program ending");
+			} else if (userRow <= 15)
+			{
 
-			System.out.println("understood Section C what row from 1 through 60?");
-			userRow = input.nextInt();
-		} else if (userSection == sectionS)
-		{
-			System.out.println("understood Section S what row from 1 through 60?");
-			userRow = input.nextInt();
+				System.out.println("understood your ticket will cost $" + rowOne);
+			} else if (userRow <= 30)
+			{
 
-		} else if (userSection == sectionU)
-		{
-			System.out.println("understood Section U what row from 1 through 60?");
-			userRow = input.nextInt();
+				System.out.println("understood your ticket will cost $" + rowTwo);
+			} else if (userRow <= 60)
+			{
+
+				System.out.println("understood your ticket will cost $" + rowThree);
+			} else
+			{
+				System.out.println("Invalid row,  program ending");
+			}
 
 		} else
 		{
-			System.out.println("Invalid row,program ending");
+			System.out.println("Invalid Section,program ending");
 		}
 
-		if (userRow <= 1)
-		{
-			System.out.println("Invalid row,  program ending");
-		} else if (userRow <= 15)
-		{
-
-			System.out.println("understood your ticket will cost $" + rowOne);
-		} else if (userRow <= 30)
-		{
-
-			System.out.println("understood your ticket will cost $" + rowTwo);
-		} else if (userRow <= 60)
-		{
-
-			System.out.println("understood your ticket will cost $" + rowThree);
-		} else
-		{
-			System.out.println("Invalid row,  program ending");
-		}
 		input.close();
 	}// end of main
 
