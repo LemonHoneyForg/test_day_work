@@ -35,7 +35,7 @@ public class ConcertTicketPrices
 			System.out.println("understood Section " + userSection + " what row from 1 through 60?");
 			userRow = input.nextInt();
 
-			if (userRow <= 1)
+			if (userRow < 1)
 			{
 				System.out.println("Invalid row,  program ending");
 			} else if (userRow <= 15)
@@ -57,7 +57,7 @@ public class ConcertTicketPrices
 
 		} else
 		{
-			System.out.println("Invalid Section,program ending");
+			System.out.println("Invalid section,program ending");
 		}
 
 		input.close();
