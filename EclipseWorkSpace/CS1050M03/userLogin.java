@@ -12,13 +12,17 @@ public class userLogin
 
 		String userStored;
 
-		String PassStored;
-
 		String userEnetered;
+
+		Boolean userPass = false;
+
+		String PassStored;
 
 		String passEnetered;
 
-		Boolean login = true;
+		Boolean passPass = false;
+
+		Boolean loginPass = false;
 
 		int attempts = 0;
 
@@ -38,18 +42,27 @@ public class userLogin
 		System.out.println("enter your pass");
 		passEnetered = input.next();
 
-		while (!login)
+		while (loginPass == false || attempts <= 0)
 		{
 			if (userStored.equals(userEnetered))
 			{
+				userPass = true;
 				if (PassStored.equals(passEnetered))
 				{
 					System.out.println("login is correct!");
+					loginPass = true;
+					passEnetered = "joy";
 				} // pass end
-			} else if (userStored.equals(userEnetered))
+			} else if (userPass == false)
 			{
+				System.out.println("user is false! please try again");
+				attempts++;
+			} else if (passPass == false)
+			{
+				System.out.println("pass is false! please try again");
+				attempts++;
+			}
 
-			} // user end
 		} // while end
 
 		if ((userStored.equals(userEnetered)) && PassStored.equals(passEnetered))
@@ -63,4 +76,5 @@ public class userLogin
 		input.close();
 	}// end of main
 
-}// end of class
+}
+// end of class
