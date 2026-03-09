@@ -23,6 +23,7 @@ public class BMIRevised
 
 		// Create a Scanner object for scanning input from keyboard
 		Scanner keyboardInput = new Scanner(System.in);
+
 		// Tell the user what the program will do.
 		System.out.println("This program will calculate your " + "body mass index, or BMI.");
 
