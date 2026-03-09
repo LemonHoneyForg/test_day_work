@@ -32,6 +32,7 @@ public class L06MathCharStrings
 		String summary = "Hello " + firstName + " " + lastInitial;
 
 		System.out.println(summary);
+		System.out.println(randomInt);
 		input.close();
 	} // end of main
 
