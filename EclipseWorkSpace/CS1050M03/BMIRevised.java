@@ -45,8 +45,8 @@ public class BMIRevised
 			{
 				double endBmi = printBmi(weight, height);
 
-				System.out.printf(
-						"\twith a Height of " + height + " and Weight of " + weight + " athlete’s BMI is %.2f", endBmi);
+				System.out.printf("With a height of " + height + " and weight of " + weight + " athlete’s BMI is %.2f",
+						endBmi);
 				System.out.println();
 				System.out.println("would you like to enter another athlete’s data for BMI");
 				userInput = keyboardInput.next().charAt(0);
