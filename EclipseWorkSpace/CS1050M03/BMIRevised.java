@@ -23,6 +23,8 @@ public class BMIRevised
 		boolean runBmiAgain = false;
 
 		char userInput;
+
+		boolean vaildChar = false;
 		// Create a Scanner object for scanning input from keyboard
 		Scanner keyboardInput = new Scanner(System.in);
 		do
@@ -48,10 +50,21 @@ public class BMIRevised
 				System.out.printf("With a height of " + height + " and weight of " + weight + " athlete’s BMI is %.2f",
 						endBmi);
 				System.out.println();
-				System.out.println("would you like to enter another athlete’s data for BMI");
-				userInput = keyboardInput.next().charAt(0);
-				char capitalChar = Character.toUpperCase(userInput);
-				runBmiAgain = runAgain(capitalChar);
+				do
+				{
+					System.out.println("would you like to enter another athlete’s data for BMI? (Y/N)");
+					userInput = keyboardInput.next().charAt(0);
+					char capUserChar = Character.toUpperCase(userInput);
+					if ((capUserChar == 'Y') || ((capUserChar == 'N')))
+					{
+						vaildChar = true;
+					} else
+					{
+						System.out.println("please enter Y or N");
+					}
+				} while (vaildChar == false);
+				char capChar = Character.toUpperCase(userInput);
+				runBmiAgain = runAgain(capChar);
 			} else
 			{
 				System.out.println("sorry user weight or height can not be zero ending program");
