@@ -4,28 +4,87 @@ public class M04ArraysIntroLab
 {
 	public static void main(String[] args)
 	{
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter the number of items: ");
-		int n = input.nextInt();
-		double[] numbers = new double[n]; // Create an array
-		double sum = 0;
 
-		System.out.print("Enter the numbers: ");
-		for (int i = 0; i < n; i++)
+		// grade weight .15 = 15%
+		final double CLASS_PART_ONE = .15;
+		// grade weight .2 = 20%
+		final double CLASS_PART_TWO = .2;
+		// grade weight .25 = 25%
+		final double CLASS_PART_THREE = .25;
+		// grade weight .2 = 20%
+		// there are five catagorys but the last two are also 20% so I re-used
+		// CLASS_PART_TWO
+
+		int gradeValOne;
+
+		int gradeValTwo;
+
+		int gradeValThree;
+
+		int gradeValFour;
+
+		int gradeValFive;
+
+		// sets up user input for five grades
+		Scanner keyboardInput = new Scanner(System.in);
+		// asks for grade 1
+		System.out.print("\nEnter your first grade: ");
+		gradeValOne = keyboardInput.nextInt();
+
+		// asks for grade 2
+		System.out.print("\nEnter your Second grade: ");
+		gradeValTwo = keyboardInput.nextInt();
+
+		// asks for grade 3
+		System.out.print("\nEnter your third grade: ");
+		gradeValThree = keyboardInput.nextInt();
+
+		// asks for grade 4
+		System.out.print("\nEnter your forth grade: ");
+		gradeValFour = keyboardInput.nextInt();
+
+		// asks for grade 5
+		System.out.print("\nEnter your fith grade: ");
+		gradeValFive = keyboardInput.nextInt();
+		// does math for category one of grade
+		double finalOne = gradeValOne * CLASS_PART_ONE;
+
+		// does math for category one of grade
+		double finalTwo = gradeValTwo * CLASS_PART_TWO;
+
+		// does math for category one of grade
+		double finalThree = gradeValThree * CLASS_PART_THREE;
+
+		// does math for category one of grade
+		double finalFour = gradeValFour * CLASS_PART_TWO;
+
+		// does math for category one of grade
+		double finalFive = gradeValFive * CLASS_PART_TWO;
+
+		// total of the calculated grades
+		double finalGrade = finalFive + finalFour + finalThree + finalTwo + finalOne;
+		// series of if statements that based on the calculated number grade tell you a
+		// letter grade
+		if (finalGrade >= 94)
 		{
-			numbers[i] = input.nextDouble();
-			sum += numbers[i];
+			System.out.printf("congrats! you have an A a passing grade of %.2f", finalGrade);
+		} else if (finalGrade >= 84)
+		{
+
+			System.out.printf("congrats! you have an B a passing grade of %.2f", finalGrade);
+		} else if (finalGrade >= 74)
+		{
+
+			System.out.printf("congrats! you have an C a passing grade of %.2f", finalGrade);
+		} else if (finalGrade >= 60)
+		{
+
+			System.out.printf("sorry you have a failing grade of D %.2f", finalGrade);
+		} else
+		{
+			System.out.printf("sorry you have a failing grade of F %.2f", finalGrade);
 		}
 
-		double average = sum / n;
-
-		int count = 0; // The numbers of elements above average
-		for (int i = 0; i < n; i++)
-			if (numbers[i] > average) // Count if number[i] > average
-				count++;
-
-		System.out.println("Average is " + average);
-		System.out.println("Number of elements above the average is " + count);
-		input.close();
+		keyboardInput.close();
 	}// end of main
 }// end of class
