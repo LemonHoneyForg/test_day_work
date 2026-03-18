@@ -87,4 +87,30 @@ public class M04ArraysIntroLab
 
 		keyboardInput.close();
 	}// end of main
+
+	public static void gradeAvrge(int gradeVal)
+	{
+
+		System.out.print("Enter the number of items: ");
+		int n = gradeVal;
+		double[] numbers = new double[n]; // Create an array
+		double sum = 0;
+
+		System.out.print("Enter the numbers: ");
+		for (int i = 0; i < n; i++)
+		{
+			numbers[i] = input.nextDouble();
+			sum += numbers[i];
+		}
+
+		double average = sum / n;
+
+		int count = 0; // The numbers of elements above average
+		for (int i = 0; i < n; i++)
+			if (numbers[i] > average) // Count if number[i] > average
+				count++;
+
+		System.out.println("Average is " + average);
+		System.out.println("Number of elements above the average is " + count);
+	}
 }// end of class
