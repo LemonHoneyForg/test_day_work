@@ -66,7 +66,7 @@ public class M04ArraysIntroLab
 		}
 
 		System.out.println("Number of grades above the average is " + count);
-
+		System.out.println("total grades entered is " + gradescope);
 	}
 
 	public static String[] studentNames(int studentNumber)
