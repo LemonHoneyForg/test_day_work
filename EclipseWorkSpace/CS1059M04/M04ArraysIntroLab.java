@@ -39,12 +39,12 @@ public class M04ArraysIntroLab
 
 		String[] studentNames = studentNames(studentTotal);
 
-		avgNumber(studentArray, studentTotal);
+		avgNumber(studentArray, studentTotal, studentNames);
 
 		keyboardInput.close();
 	}// end of main
 
-	public static void avgNumber(int[] gradesEntered, int gradescope)
+	public static void avgNumber(int[] gradesEntered, int gradescope, String[] namelist)
 	{
 		int sum = 0;
 
@@ -61,7 +61,7 @@ public class M04ArraysIntroLab
 			if (gradesEntered[i] > average)
 			{ // Count if number[i] > average
 				count++;
-				System.out.println("grade " + gradesEntered[i] + " is above average");
+				System.out.println("student " + namelist[i] + " grade " + gradesEntered[i] + " is above average");
 			}
 		}
 
