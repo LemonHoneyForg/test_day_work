@@ -54,17 +54,18 @@ public class M04ArraysIntroLab
 		}
 
 		double average = sum / gradescope;
-
+		System.out.println("Average is " + average);
 		int count = 0; // The numbers of elements above average
 		for (int i = 0; i < gradescope; i++)
 		{
 			if (gradesEntered[i] > average)
 			{ // Count if number[i] > average
 				count++;
+				System.out.println("grade " + gradesEntered[i] + " is above average");
 			}
 		}
-		System.out.println("Average is " + average);
-		System.out.println("Number of grade above the average is " + count);
+
+		System.out.println("Number of grades above the average is " + count);
 
 	}
 
