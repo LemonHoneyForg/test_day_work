@@ -6,7 +6,7 @@ public class M04ArraysIntroLab
 	{
 
 		int studentTotal;
-
+		int studentVar = 1;
 		boolean isValid = false;
 		// sets up user input for five grades
 		Scanner keyboardInput = new Scanner(System.in);
@@ -31,8 +31,11 @@ public class M04ArraysIntroLab
 
 		for (int i = 0; i < holdArray.length; i++)
 		{
-			System.out.println("enter students grades");
+
+			System.out.println("enter student " + studentVar + " grades");
 			studentArray[i] = keyboardInput.nextInt();
+			System.out.println("recorded student " + studentVar);
+			studentVar++;
 		}
 
 		System.out.println("now please enter the students names in the same order you entered they're grades");
@@ -72,7 +75,7 @@ public class M04ArraysIntroLab
 	public static String[] studentNames(int studentNumber)
 	{
 		Scanner input2 = new Scanner(System.in);
-		String[] studentArray = new String[studentNumber + 1];
+		String[] studentArray = new String[studentNumber];
 		int count = 1;
 		for (int i = 0; i < studentNumber; i++)
 		{
@@ -85,4 +88,10 @@ public class M04ArraysIntroLab
 		input2.close();
 		return studentArray;
 	}
+
+	public static void test(int[] gradesEntered, int nextInt, String[] namelist)
+	{
+
+	}
+
 }// end of class

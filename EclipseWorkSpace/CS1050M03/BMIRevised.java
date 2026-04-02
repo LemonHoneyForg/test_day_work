@@ -42,14 +42,10 @@ public class BMIRevised
 			height = keyboardInput.nextDouble();
 
 			boolean validBmi = realBmi(weight, height);
-
+			double bmiCheck = calcBmi(weight, height);
 			if (validBmi == true)
 			{
-				double endBmi = printBmi(weight, height);
-
-				System.out.printf("With a height of " + height + " and weight of " + weight + " athlete’s BMI is %.2f",
-						endBmi);
-				System.out.println();
+				printBmi(weight, height, bmiCheck);
 				do
 				{
 					System.out.println("would you like to enter another athlete’s data for BMI? (Y/N)");
@@ -75,13 +71,21 @@ public class BMIRevised
 		keyboardInput.close();
 	}// end of main
 
-	public static double printBmi(double userWeight, double userHeight)
+	public static double calcBmi(double userWeight, double userHeight)
 	{
 		final double BMI_US_FACTOR = 703;
 
 		double bmi = userWeight * BMI_US_FACTOR / (Math.pow(userHeight, 2));
 
 		return bmi;
+	}
+
+	public static void printBmi(double height, double weight, double bmicalc)
+	{
+
+		System.out.printf("With a height of " + height + " and weight of " + weight + " athlete’s BMI is %.2f",
+				bmicalc);
+		System.out.println();
 	}
 
 	public static boolean realBmi(double userWeight, double userHeight)
