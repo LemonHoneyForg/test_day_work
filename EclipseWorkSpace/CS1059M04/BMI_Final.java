@@ -91,20 +91,6 @@ public class BMI_Final
 		return bmiMax;
 	}
 
-	public static double heartRateAvgCalc(double[] allHMRs)
-	{
-		int sum = 0;
-
-		for (int i = 0; i < allHMRs.length; i++)
-		{
-			sum += allHMRs[i];
-		}
-
-		double mhrMax = sum / allHMRs.length;
-
-		return mhrMax;
-	}
-
 	public static void isPosNumber(int athleteCount)
 	{
 
@@ -165,5 +151,16 @@ public class BMI_Final
 
 		return athleteBmiArray;
 	}
+
+}
+
+class athlete
+{
+	private int athleteCount;
+	private int[] age;
+	private String[] names;
+	private double[] weight;
+	private double[] height;
+	private double[] MHR;
 
 }
