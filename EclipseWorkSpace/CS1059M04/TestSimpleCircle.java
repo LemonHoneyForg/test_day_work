@@ -21,19 +21,19 @@ public class TestSimpleCircle
 
 		// Create a circle with radius 1
 		SimpleCircle square1 = new SimpleCircle();
-		System.out.println("The area of the circle of radius " + square1.radius + " is " + square1.getArea());
+		System.out.println("The area of the circle of square " + square1.radius + " is " + square1.getArea());
 
 		// Create a circle with radius 25
 		SimpleCircle square2 = new SimpleCircle(25);
-		System.out.println("The area of the circle of radius " + square2.radius + " is " + square2.getArea());
+		System.out.println("The area of the circle of square " + square2.radius + " is " + square2.getArea());
 
 		// Create a circle with radius 125
 		SimpleCircle square3 = new SimpleCircle(125);
-		System.out.println("The area of the circle of radius " + square3.radius + " is " + square3.getArea());
+		System.out.println("The area of the circle of square " + square3.radius + " is " + square3.getArea());
 
 		// Modify circle radius
 		square2.radius = 100; // or circle2.setRadius(100)
-		System.out.println("The area of the circle of radius " + square2.radius + " is " + square2.getArea());
+		System.out.println("The area of the circle of square " + square2.radius + " is " + square2.getArea());
 
 	}
 }
