@@ -15,24 +15,24 @@ public class TestSimpleCircle
 		SimpleCircle circle3 = new SimpleCircle(125);
 		System.out.println("The area of the circle of radius " + circle3.radius + " is " + circle3.getArea());
 
-		// Modify circle radius
+		// Modify square radius
 		circle2.radius = 100; // or circle2.setRadius(100)
 		System.out.println("The area of the circle of radius " + circle2.radius + " is " + circle2.getArea());
 
-		// Create a circle with radius 1
+		// Create a square with radius 1
 		SimpleCircle square1 = new SimpleCircle();
 		System.out.println("The area of the circle of square " + square1.radius + " is " + square1.getArea());
 
-		// Create a circle with radius 25
+		// Create a square with radius 25
 		SimpleCircle square2 = new SimpleCircle(25);
 		System.out.println("The area of the circle of square " + square2.radius + " is " + square2.getArea());
 
-		// Create a circle with radius 125
+		// Create a square with radius 125
 		SimpleCircle square3 = new SimpleCircle(125);
 		System.out.println("The area of the circle of square " + square3.radius + " is " + square3.getArea());
 
-		// Modify circle radius
-		square2.radius = 100; // or circle2.setRadius(100)
+		// Modify square radius
+		square2.radius = 100; // or square2.setRadius(100)
 		System.out.println("The area of the circle of square " + square2.radius + " is " + square2.getArea());
 
 	}
@@ -78,7 +78,7 @@ class SimpleSquare
 {
 	double sideSize;
 
-	/** Construct a circle with radius 1 */
+	/** Construct a square with side size of 1 */
 	SimpleSquare()
 	{
 		sideSize = 1;
@@ -90,19 +90,19 @@ class SimpleSquare
 		sideSize = newRadius;
 	}
 
-	/** Return the area of this circle */
+	/** Return the area of this square */
 	double getArea()
 	{
 		return Math.pow(sideSize, 2);
 	}
 
-	/** Return the perimeter of this circle */
+	/** Return the perimeter of this square */
 	double getPerimeter()
 	{
 		return 4 * sideSize;
 	}
 
-	/** Set a new radius for this circle */
+	/** Set a new side size for this square */
 	void setRadius(double newRadius)
 	{
 		sideSize = newRadius;
