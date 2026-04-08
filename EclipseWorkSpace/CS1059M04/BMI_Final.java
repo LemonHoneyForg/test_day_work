@@ -91,11 +91,6 @@ public class BMI_Final
 		return bmiMax;
 	}
 
-	public static void isPosNumber(int athleteCount)
-	{
-
-	}
-
 	public static String[] athleteNames(int athleteNumber)
 	{
 		Scanner input2 = new Scanner(System.in);
