@@ -21,13 +21,25 @@ public class M05L21
 		System.out.print("how many athletes are you entering?");
 		athleteCount = keyboardInput.nextInt();
 
+		isValidNumber(keyboardInput, athleteCount);
+
 		double[] athleteBmiArray = new double[athleteCount];
 
 		athleteBmiArray = makeBmiArray(keyboardInput, athleteCount);
 
+		int[] athleteAgeArray = new int[athleteCount];
+
+		athleteBmiArray = makeAgeArray(keyboardInput, athleteCount);
+
 		double[] athleteMhrArray = new double[athleteCount];
 
 		athleteMhrArray = makeMhrArray(keyboardInput, athleteCount);
+
+		String[] athleteNameArray = new String[athleteCount];
+
+		athleteNameArray = makeAthleteNames(keyboardInput, athleteCount);
+
+		makeAthleteData(athleteNameArray, athleteBmiArray, athleteMhrArray);
 
 		keyboardInput.close();
 	}
@@ -68,11 +80,48 @@ public class M05L21
 		{
 			System.out.print("enter MHR " + count + " please");
 			athleteMhrArray[i] = input.nextInt();
-
+			System.out.println("recorded athlete " + count);
 		}
 		System.out.println("all BMI's stored");
 
 		return athleteMhrArray;
+	}
+
+	public static double[] makeAgeArray(Scanner input, int athleteCount)
+	{
+		double[] athleteAgeArray = new double[athleteCount];
+		int count = 1;
+
+		for (int i = 0; i < athleteCount; i++)
+		{
+			System.out.print("enter athlete " + count + "'s age please");
+			athleteAgeArray[i] = input.nextInt();
+			System.out.println("recorded athlete " + count);
+		}
+		System.out.println("all BMI's stored");
+
+		return athleteAgeArray;
+	}
+
+	public static boolean isValidNumber(Scanner input, double userValue)
+	{
+		double userNumber = userValue;
+		boolean isValid = false;
+
+		do
+		{
+			if (userNumber <= 0)
+			{
+				System.out.println("invalid number");
+				System.out.println("please enter number greater then 0 below");
+				userNumber = input.nextInt();
+			} else
+			{
+				isValid = true;
+			}
+		} while (isValid == false);
+
+		return isValid;
 	}
 
 	public static double[] makeBmiArray(Scanner input, int athleteCount)
@@ -98,14 +147,62 @@ public class M05L21
 			count++;
 
 			athleteBmiArray[i] = weight * BMI_US_FACTOR / (Math.pow(height, 2));
+			System.out.println("recorded athlete " + count);
 		}
 		System.out.println("all BMI's stored");
 		return athleteBmiArray;
 	}
 
-	public static void enterAthleteData(String[] names, double bmis[], double[] heartRates, Scanner input)
+	public static String[] makeAthleteNames(Scanner input, int athleteCount)
 	{
-		// TODO Auto-generated method stub
+		String[] athleteNameArray = new String[athleteCount];
+		int count = 1;
+		for (int i = 0; i < athleteCount; i++)
+		{
+			System.out.println("enter athlete " + count + "s name");
+			athleteNameArray[i] = input.next();
+			System.out.println("recorded athlete " + athleteNameArray[i]);
+			count++;
+		}
+		System.out.println("all athlete names recorded");
+
+		return athleteNameArray;
+	}
+
+	public static void bmiCatagorys(int count)
+	{
+
+		final double BMI_OVER_FACTOR = 25;
+
+		final double BMI_STANDARD_FACTOR = 18.5;
+
+		if (count >= BMI_OVER_FACTOR)
+		{
+			System.out.println("High");
+		} else if (count >= BMI_STANDARD_FACTOR)
+		{
+			System.out.println("Normal");
+		} else
+		{
+			System.out.println("Underweight");
+		}
+
+	}
+
+	public static void makeAthleteData(String[] names, double bmis[], double[] heartRates)
+	{
+		System.out.println("========== Team Summary==========");
+		System.out.println();
+		for (int i = 0; i < bmis.length; i++)
+		{
+			System.out.println(names[i]);
+			System.out.println("BMI: " + bmis[i]);
+			System.out.print("Catagory: ");
+			bmiCatagorys(i);
+			System.out.println("MHR: " + heartRates[i]);
+			System.out.println();
+			System.out.println();
+		}
 
 	}
 
