@@ -27,10 +27,6 @@ public class M05L21
 
 		athleteBmiArray = makeBmiArray(keyboardInput, athleteCount);
 
-		int[] athleteAgeArray = new int[athleteCount];
-
-		athleteBmiArray = makeAgeArray(keyboardInput, athleteCount);
-
 		double[] athleteMhrArray = new double[athleteCount];
 
 		athleteMhrArray = makeMhrArray(keyboardInput, athleteCount);
@@ -73,30 +69,18 @@ public class M05L21
 
 	public static double[] makeMhrArray(Scanner input, int athleteCount)
 	{
-		double[] athleteMhrArray = new double[athleteCount];
-		int count = 1;
-
-		for (int i = 0; i < athleteCount; i++)
-		{
-			System.out.print("enter MHR " + count + " please");
-			athleteMhrArray[i] = input.nextInt();
-			System.out.println("recorded athlete " + count);
-		}
-		System.out.println("all BMI's stored");
-
-		return athleteMhrArray;
-	}
-
-	public static double[] makeAgeArray(Scanner input, int athleteCount)
-	{
 		double[] athleteAgeArray = new double[athleteCount];
 		int count = 1;
-
+		double placeHolder;
 		for (int i = 0; i < athleteCount; i++)
 		{
 			System.out.print("enter athlete " + count + "'s age please");
-			athleteAgeArray[i] = input.nextInt();
+			placeHolder = input.nextInt();
+
+			athleteAgeArray[i] = 206.9 - (0.67 * placeHolder);
+
 			System.out.println("recorded athlete " + count);
+			count++;
 		}
 		System.out.println("all BMI's stored");
 
@@ -138,10 +122,10 @@ public class M05L21
 		{
 			System.out.println("for athlete " + count + "'s BMI");
 
-			System.out.println("enter weight " + count + " please");
+			System.out.println("enter weight, in pounds: " + count + " please");
 			weight = input.nextInt();
 
-			System.out.println("enter height " + count + " please");
+			System.out.println("enter height, in inches: " + count + " please");
 			height = input.nextInt();
 
 			count++;
@@ -193,12 +177,14 @@ public class M05L21
 	{
 		System.out.println("========== Team Summary==========");
 		System.out.println();
+		int temp;
 		for (int i = 0; i < bmis.length; i++)
 		{
 			System.out.println(names[i]);
-			System.out.println("BMI: " + bmis[i]);
+			System.out.printf("BMI: %.2f " + bmis[i]);
 			System.out.print("Catagory: ");
-			bmiCatagorys(i);
+			temp = i;
+			bmiCatagorys(temp);
 			System.out.println("MHR: " + heartRates[i]);
 			System.out.println();
 			System.out.println();
