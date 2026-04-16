@@ -17,7 +17,8 @@ public class M05L21
 	{
 		Scanner keyboardInput = new Scanner(System.in);
 		int athleteCount;
-
+		double bmiAvrg;
+		double mhrAvrg;
 		System.out.print("how many athletes are you entering?");
 		athleteCount = keyboardInput.nextInt();
 
@@ -27,9 +28,13 @@ public class M05L21
 
 		athleteBmiArray = makeBmiArray(keyboardInput, athleteCount);
 
+		bmiAvrg = getAvrg(athleteBmiArray);
+
 		double[] athleteMhrArray = new double[athleteCount];
 
 		athleteMhrArray = makeMhrArray(keyboardInput, athleteCount);
+
+		mhrAvrg = getAvrg(athleteMhrArray);
 
 		String[] athleteNameArray = new String[athleteCount];
 
@@ -37,7 +42,29 @@ public class M05L21
 
 		makeAthleteData(athleteNameArray, athleteBmiArray, athleteMhrArray);
 
+		System.out.println("bmi exeptions are: ");
+
+		displayOutOfRange(bmiAvrg, athleteBmiArray, athleteNameArray);
+
+		System.out.println("MHR exeptions are: ");
+
+		displayOutOfRange(mhrAvrg, athleteBmiArray, athleteNameArray);
+
 		keyboardInput.close();
+	}
+
+	public static double getAvrg(double[] valueList)
+	{
+
+		double sum = 0;
+		for (int i = 0; i < valueList.length; i++)
+		{
+
+			sum += valueList[i];
+		}
+
+		double average = sum / valueList.length;
+		return average;
 	}
 
 	public static void displayOutOfRange(double athleteAvrg, double[] athleteNumbers, String[] athleteNames)
