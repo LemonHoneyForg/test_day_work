@@ -2,6 +2,7 @@
 /**
  * 
  */
+
 import java.util.Scanner;
 
 /**
@@ -88,10 +89,12 @@ public class M05L21
 
 		}
 
-		System.out.println("Number of athletes above the average(" + athleteAvrg + ") is " + aboveCount);
-		System.out.println("Number of athletes below the average(" + athleteAvrg + ") is " + belowCount);
+		System.out.printf("Number of athletes above the average(" + athleteAvrg + ") is " + aboveCount, "%.2f");
+		System.out.println();
+		System.out.printf("Number of athletes below the average(" + athleteAvrg + ") is " + belowCount, "%.2f");
+		System.out.println();
 
-		System.out.println("total MHR's entered is " + (athleteNumbers.length));
+		System.out.println("total athletes entered is " + (athleteNumbers.length));
 	}
 
 	public static double[] makeMhrArray(Scanner input, int athleteCount)
@@ -158,9 +161,11 @@ public class M05L21
 			count++;
 
 			athleteBmiArray[i] = weight * BMI_US_FACTOR / (Math.pow(height, 2));
+
 			System.out.println("recorded athlete " + count);
 		}
 		System.out.println("all BMI's stored");
+
 		return athleteBmiArray;
 	}
 
