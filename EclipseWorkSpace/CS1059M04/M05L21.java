@@ -54,6 +54,7 @@ public class M05L21
 		keyboardInput.close();
 	}
 
+	// get avrige
 	public static double getAvrg(double[] valueList)
 	{
 

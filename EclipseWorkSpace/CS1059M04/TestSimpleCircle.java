@@ -77,6 +77,7 @@ class SimpleCircle
 class SimpleSquare
 {
 	double sideSize;
+	String color;
 
 	/** Construct a square with side size of 1 */
 	SimpleSquare()
