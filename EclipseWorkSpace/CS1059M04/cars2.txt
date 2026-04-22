@@ -1,0 +1,6 @@
+Toyota Camry 25000
+Honda Accord 27000
+Chevy Malibu 23000
+Kia Sportage 28000
+Mazda CX5 30000
+Subaru Outback 31000

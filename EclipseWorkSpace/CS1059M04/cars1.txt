@@ -1,0 +1,6 @@
+Ford Mustan 32800
+Nissan Altima 14500
+Dodge Dart 19900
+BMW X1 32000
+Porsche Spyder 164200
+Hyundai Ioniq 29000
