@@ -214,7 +214,7 @@ public class M05L21
 		for (int i = 0; i < bmis.length; i++)
 		{
 			System.out.println(names[i]);
-			System.out.printf("BMI: " + "%.2f", bmis[i]);
+			System.out.printf("BMI: %.2f", bmis[i]);
 			System.out.println();
 			System.out.print("Catagory: ");
 			temp = i;
