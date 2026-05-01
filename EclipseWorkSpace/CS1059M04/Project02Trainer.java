@@ -170,7 +170,7 @@ class Team
 
 	private String teamName;
 	private int athleteCount;
-	private Athlte[] teamList;
+	private Athlte[] teamList = new Athlte[athleteCount];
 
 	Team()
 	{
@@ -182,7 +182,7 @@ class Team
 	Team(String newName, int newAthleteCount)
 	{
 		this.teamName = newName;
-		this.teamList = new Athlte[athleteCount];
+
 	}
 
 	String getTeamName()
@@ -195,14 +195,21 @@ class Team
 		return athleteCount;
 	}
 
-	public void displayAthleteResults()
+	void teamBuild()
 	{
+
 		System.out.println();
 		for (int i = 0; i < athleteCount; i++)
 		{
-			System.out.println(teamList[i]);
+			this.teamList[i] = Athlte.displayAthleteResults();
 
 		}
+		return teamList;
+	}
+
+	void displayAthleteResults()
+	{
+		System.out.println(teamList);
 
 	}
 
