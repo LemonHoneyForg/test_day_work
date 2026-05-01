@@ -14,8 +14,8 @@ public class car_dealer
 	public static void main(String[] args)
 	{
 		Dealership square1 = new Dealership();
-		car car1 = new car();
-		car1.getCarData();
+		Car car1 = new Car();
+		Dealership.addCar(car1.getCarData());
 	}
 
 }
@@ -24,7 +24,7 @@ class Dealership
 {
 	int maxCars;
 	String name;
-	int[] carCount = new int[maxCars];
+	public Car[] carCount = new Car[maxCars];
 
 	Dealership()
 	{
@@ -32,10 +32,15 @@ class Dealership
 		name = "mike";
 	}
 
-	Dealership(int currentMaxCars, String newName)
+	Dealership(String newName, int currentMaxCars)
 	{
 		maxCars = currentMaxCars;
 		name = newName;
+	}
+
+	String getDealershipName()
+	{
+		return name;
 	}
 
 	void setMax(int newMaxCars)
@@ -43,14 +48,14 @@ class Dealership
 		maxCars = newMaxCars;
 	}
 
-	double getMax()
-	{
-		return maxCars;
-	}
-
 	void setName(String newSetName)
 	{
 		name = newSetName;
+	}
+
+	double getMax()
+	{
+		return maxCars;
 	}
 
 	String getName()
@@ -58,9 +63,25 @@ class Dealership
 		return name;
 	}
 
-	public static void makeCarData(String make, String modal, double cost, int[] carCount)
+	public void addCar(Car object)
 	{
-		System.out.println("========== Team Summary==========");
+
+		for (int i = 0; i < maxCars; i++)
+		{
+			if (i < maxCars)
+			{
+				carCount[i] = object;
+			} else
+			{
+				System.out.println("ERROR: lot full");
+			}
+		}
+
+	}
+
+	public static void displayCars(String make, String modal, double cost, int[] carCount)
+	{
+		System.out.println("========== car Summary==========");
 		System.out.println();
 		for (int i = 0; i < carCount.length; i++)
 		{
@@ -79,20 +100,21 @@ class Dealership
 
 }
 
-class car
+class Car
 {
 	String make;
 	String modal;
 	double carCost;
 
-	car()
+	Car()
 	{
-		carCost = 50000;
+
 		make = "subaru";
 		modal = "outback";
+		carCost = 50000;
 	}
 
-	car(int newCarCost, String newModal, String newMake)
+	Car(String newMake, String newModal, double newCarCost)
 	{
 		make = newMake;
 		modal = newModal;
@@ -104,9 +126,14 @@ class car
 		return carCost;
 	}
 
-	String getName()
+	String getMake()
 	{
-		return make + " " + modal;
+		return make;
+	}
+
+	String getModal()
+	{
+		return modal;
 	}
 
 	public void getCarData()
@@ -114,6 +141,7 @@ class car
 
 		System.out.println(make + " " + modal);
 		System.out.println("cost in dollers $" + carCost);
+
 	}
 
 }

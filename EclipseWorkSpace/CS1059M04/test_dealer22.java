@@ -43,8 +43,8 @@ public class test_dealer22
 			String make = fileScanner.next();
 			String model = fileScanner.next();
 			double price = fileScanner.nextDouble();
-			Car car1 = new Car(make, model, price);
-			newDealership.addCar(car1);
+			Car car = new Car(make, model, price);
+			newDealership.addCar(car);
 		}
 		fileScanner.close();
 	}
@@ -64,9 +64,9 @@ public class test_dealer22
 
 class Dealership
 {
-	int maxCars;
-	String name;
-	public int[] carCount = new int[maxCars];
+	private int maxCars;
+	private String name;
+	private Car[] carCount = new Car[maxCars];
 
 	Dealership()
 	{
@@ -76,8 +76,8 @@ class Dealership
 
 	Dealership(String newName, int currentMaxCars)
 	{
-		maxCars = currentMaxCars;
-		name = newName;
+		this.maxCars = currentMaxCars;
+		this.name = newName;
 	}
 
 	String getDealershipName()
@@ -85,9 +85,14 @@ class Dealership
 		return name;
 	}
 
-	void setMax(int newMaxCars)
+	public void setMax(int newMaxCars)
 	{
-		maxCars = newMaxCars;
+		this.maxCars = newMaxCars;
+	}
+
+	public void setName(String newSetName)
+	{
+		this.name = newSetName;
 	}
 
 	double getMax()
@@ -95,30 +100,25 @@ class Dealership
 		return maxCars;
 	}
 
-	void setName(String newSetName)
-	{
-		name = newSetName;
-	}
-
 	String getName()
 	{
 		return name;
 	}
 
-	public static void addCar()
+	public void addCar(Car object)
 	{
-		try
-		{
-			for (int i = 0; i < 6; i++)
-			{
-				carCount[i] = 1;
-			}
 
-		} catch (Exception e)
+		for (int i = 0; i < maxCars; i++)
 		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			if (i < maxCars)
+			{
+				carCount[i] = object;
+			} else
+			{
+				System.out.println("ERROR: lot full");
+			}
 		}
+
 	}
 
 	public static void displayCars(String make, String modal, double cost, int[] carCount)
@@ -144,9 +144,9 @@ class Dealership
 
 class Car
 {
-	String make;
-	String modal;
-	double carCost;
+	private String make;
+	private String modal;
+	private double carCost;
 
 	Car()
 	{
@@ -162,14 +162,34 @@ class Car
 		carCost = newCarCost;
 	}
 
+	public void setCost(double newCarCost)
+	{
+		this.carCost = newCarCost;
+	}
+
+	public void setMake(String newMake)
+	{
+		this.make = newMake;
+	}
+
+	public void setModal(String newModal)
+	{
+		this.modal = newModal;
+	}
+
 	double getCost()
 	{
 		return carCost;
 	}
 
-	String getName()
+	String getMake()
 	{
-		return make + " " + modal;
+		return make;
+	}
+
+	String getModal()
+	{
+		return modal;
 	}
 
 	public void getCarData()
@@ -177,6 +197,7 @@ class Car
 
 		System.out.println(make + " " + modal);
 		System.out.println("cost in dollers $" + carCost);
+
 	}
 
 }
