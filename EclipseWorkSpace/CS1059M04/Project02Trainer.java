@@ -1,5 +1,6 @@
+import java.io.File;
 import java.io.FileNotFoundException;
-
+import java.util.Scanner;
 /*
  * 
  */
@@ -51,7 +52,13 @@ public class Project02Trainer
 
 	public static void teamSetUp(String fileName, Team team) throws FileNotFoundException
 	{
-		// fill in reading information from a file
+		File file = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\captmidn.txt");
+		Scanner scan = new Scanner(file);
+		String fileContent = "";
+		while (scan.hasNextLine())
+		{
+			fileContent = fileContent.concat(scan.nextLine() + "\n");
+		}
 	}
 
 	public static void runAnalysis(Team team) throws FileNotFoundException
@@ -91,5 +98,112 @@ public class Project02Trainer
 }
 
 // ================= ADD ATHLETE CLASS =================
+class Athlte
+{
+
+	private String name;
+	private double hight;
+	private double weight;
+	private int age;
+	private double bmi = weight * 703 / (Math.pow(hight, 2));
+	private int mhr = 220 - age;
+
+	Athlte()
+	{
+		name = "luna";
+		hight = 67;
+		weight = 167;
+		age = 20;
+
+	}
+
+	Athlte(String newName, double newHight, double newWeight, int age)
+	{
+		this.name = newName;
+		this.hight = newHight;
+		this.weight = newWeight;
+		this.age = age;
+	}
+
+	String getAthlteName()
+	{
+		return name;
+	}
+
+	public void displayAthleteResults()
+	{
+		System.out.println();
+		System.out.println(name);
+		System.out.printf("BMI: %.2f", bmi);
+		System.out.println();
+		System.out.println("Catagory: ");
+		bmiCatagorys(bmi);
+		System.out.println();
+		System.out.println("MHR: " + mhr);
+	}
+
+	public void bmiCatagorys(double count)
+	{
+
+		final double BMI_OVER_FACTOR = 25;
+
+		final double BMI_STANDARD_FACTOR = 18.5;
+
+		if (count >= BMI_OVER_FACTOR)
+		{
+			System.out.println("High");
+		} else if (count >= BMI_STANDARD_FACTOR)
+		{
+			System.out.println("Normal");
+		} else
+		{
+			System.out.println("Underweight");
+		}
+
+	}
+
+}
 
 // ================= ADD TEAM CLASS =================
+class Team
+{
+
+	private String teamName;
+	private int athleteCount;
+	private Athlte[] teamList;
+
+	Team()
+	{
+		teamName = "luna";
+		teamList = new Athlte[4];
+
+	}
+
+	Team(String newName, int newAthleteCount)
+	{
+		this.teamName = newName;
+		this.teamList = new Athlte[athleteCount];
+	}
+
+	String getTeamName()
+	{
+		return teamName;
+	}
+
+	int getAthleteCount()
+	{
+		return athleteCount;
+	}
+
+	public void displayAthleteResults()
+	{
+		System.out.println();
+		for (int i = 0; i < athleteCount; i++)
+		{
+			System.out.println(teamList[i]);
+
+		}
+
+	}
+
+}
