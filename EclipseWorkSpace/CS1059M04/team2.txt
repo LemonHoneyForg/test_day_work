@@ -1,0 +1,5 @@
+Deb 250 64 59
+Monty 140 75 20
+Bintu 210 70 35
+Muffin 160 72 25
+Sparky 300 68 40

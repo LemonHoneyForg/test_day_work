@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 /*
  * 
@@ -12,6 +14,8 @@ public class Project02Trainer
 		displayProgramSummary();
 
 		// ===== TEST 1 =====
+		// File file = new File("C:\\GitHub
+		// Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\captmidn.txt");
 		String fileName = "team1.txt";
 
 		try
@@ -52,13 +56,33 @@ public class Project02Trainer
 
 	public static void teamSetUp(String fileName, Team team) throws FileNotFoundException
 	{
-		File file = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\captmidn.txt");
+		File file = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team2.txt");
 		Scanner scan = new Scanner(file);
 		String fileContent = "";
+		Athlte athlte1 = new Athlte();
+		int count = 0;
+
 		while (scan.hasNextLine())
 		{
-			fileContent = fileContent.concat(scan.nextLine() + "\n");
+			fileContent = fileContent.concat(scan.next() + "\n");
+			athlte1.setName(fileContent);
+
+			while (scan.hasNextDouble())
+			{
+				count = 0;
+				double tempValue = scan.nextDouble();
+				athlte1.setWeight(tempValue);
+				tempValue = 0;
+				tempValue = scan.nextDouble();
+				athlte1.setHight(tempValue);
+				tempValue = 0;
+				count = scan.nextInt();
+				athlte1.setAge(count);
+				team.addAthlte(athlte1, count);
+				team.teamList[0] = team.addAthlte(athlte1, count);
+			}
 		}
+		scan.close();
 	}
 
 	public static void runAnalysis(Team team) throws FileNotFoundException
@@ -69,16 +93,16 @@ public class Project02Trainer
 		System.out.println();
 
 		team.displayAthleteResults();
-		team.displayAthletesOutsideNormalBMI();
-
-		double avg = team.calculateAverageMaxHeartRate();
-		System.out.println("\nAverage Max Heart Rate: " + avg);
-
-		team.displayAthletesAboveAverageMHR(avg);
-		team.displayHighestMHR();
-		team.displaySmallestLargestHeight();
-		String outputFileName = team.getTeamName() + ".txt";
-		team.writeAthletesToFile(outputFileName);
+//		team.displayAthletesOutsideNormalBMI();
+//
+//		double avg = team.calculateAverageMaxHeartRate();
+//		System.out.println("\nAverage Max Heart Rate: " + avg);
+//
+//		team.displayAthletesAboveAverageMHR(avg);
+//		team.displayHighestMHR();
+//		team.displaySmallestLargestHeight();
+//		String outputFileName = team.getTeamName() + ".txt";
+//		team.writeAthletesToFile(outputFileName);
 
 	}
 
@@ -101,10 +125,10 @@ public class Project02Trainer
 class Athlte
 {
 
-	private String name;
-	private double hight;
-	private double weight;
-	private int age;
+	public String name;
+	public double hight;
+	public double weight;
+	public int age;
 	private double bmi = weight * 703 / (Math.pow(hight, 2));
 	private int mhr = 220 - age;
 
@@ -125,9 +149,79 @@ class Athlte
 		this.age = age;
 	}
 
+	public void setHight(double newHight)
+	{
+		this.hight = newHight;
+	}
+
+	public void setName(String newName)
+	{
+		this.name = newName;
+	}
+
+	public void setWeight(double newWeight)
+	{
+		this.weight = newWeight;
+	}
+
+	public void setAge(int newAge)
+	{
+		this.age = newAge;
+	}
+
 	String getAthlteName()
 	{
-		return name;
+		return this.name;
+	}
+
+	double getAthlteWeight()
+	{
+		return this.weight;
+	}
+
+	double getAthlteHight()
+	{
+		return this.hight;
+	}
+
+}
+
+// ================= ADD TEAM CLASS =================
+class Team
+{
+
+	private int athleteCount;
+	private String teamName;
+	public Athlte[] teamList = new Athlte[athleteCount];
+
+	private String name;
+	private double hight;
+	private double weight;
+	private int age;
+	private double bmi = weight * 703 / (Math.pow(hight, 2));
+	private int mhr = 220 - age;
+
+	Team()
+	{
+		teamName = "luna";
+		teamList = new Athlte[4];
+
+	}
+
+	Team(String newName, int newAthleteCount)
+	{
+		this.teamName = newName;
+
+	}
+
+	String getTeamName()
+	{
+		return teamName;
+	}
+
+	int getAthleteCount()
+	{
+		return athleteCount;
 	}
 
 	public void displayAthleteResults()
@@ -162,55 +256,18 @@ class Athlte
 
 	}
 
-}
-
-// ================= ADD TEAM CLASS =================
-class Team
-{
-
-	private String teamName;
-	private int athleteCount;
-	private Athlte[] teamList = new Athlte[athleteCount];
-
-	Team()
+	public Athlte addAthlte(Athlte object, int counter)
 	{
-		teamName = "luna";
-		teamList = new Athlte[4];
+
+		return this.teamList[counter] = object;
 
 	}
 
-	Team(String newName, int newAthleteCount)
+	void writeAthletesToFile(String fileContent) throws IOException
 	{
-		this.teamName = newName;
+		FileWriter writer = new FileWriter("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\newfile.txt");
 
+		writer.write(fileContent);
+		writer.close();
 	}
-
-	String getTeamName()
-	{
-		return teamName;
-	}
-
-	int getAthleteCount()
-	{
-		return athleteCount;
-	}
-
-	void teamBuild()
-	{
-
-		System.out.println();
-		for (int i = 0; i < athleteCount; i++)
-		{
-			this.teamList[i] = Athlte.displayAthleteResults();
-
-		}
-		return teamList;
-	}
-
-	void displayAthleteResults()
-	{
-		System.out.println(teamList);
-
-	}
-
 }
