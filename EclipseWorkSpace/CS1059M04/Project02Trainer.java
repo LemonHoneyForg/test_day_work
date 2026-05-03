@@ -60,8 +60,8 @@ public class Project02Trainer
 		Scanner scan = new Scanner(file);
 		String fileContent = "";
 		Athlte athlte1 = new Athlte();
+		int intTemp = 0;
 		int count = 0;
-
 		while (scan.hasNextLine())
 		{
 			fileContent = fileContent.concat(scan.next() + "\n");
@@ -69,22 +69,23 @@ public class Project02Trainer
 
 			while (scan.hasNextDouble())
 			{
-				count = 0;
+				intTemp = 0;
 				double tempValue = scan.nextDouble();
 				athlte1.setWeight(tempValue);
 				tempValue = 0;
 				tempValue = scan.nextDouble();
 				athlte1.setHight(tempValue);
 				tempValue = 0;
-				count = scan.nextInt();
-				athlte1.setAge(count);
+				intTemp = scan.nextInt();
+				athlte1.setAge(intTemp);
 				team.addAthlte(athlte1, count);
-				team.teamList[0] = team.addAthlte(athlte1, count);
+				count++;
 			}
 		}
 		scan.close();
 	}
 
+	@SuppressWarnings("static-access")
 	public static void runAnalysis(Team team) throws FileNotFoundException
 	{
 		System.out.println("\n========== Team Analysis ==========");
@@ -93,10 +94,10 @@ public class Project02Trainer
 		System.out.println();
 
 		team.displayAthleteResults();
-//		team.displayAthletesOutsideNormalBMI();
+		team.displayAthletesOutsideNormalBMI();
 //
-//		double avg = team.calculateAverageMaxHeartRate();
-//		System.out.println("\nAverage Max Heart Rate: " + avg);
+		double avg = team.calculateAverageMaxHeartRate();
+		System.out.println("\nAverage Max Heart Rate: " + avg);
 //
 //		team.displayAthletesAboveAverageMHR(avg);
 //		team.displayHighestMHR();
@@ -129,8 +130,6 @@ class Athlte
 	public double hight;
 	public double weight;
 	public int age;
-	private double bmi = weight * 703 / (Math.pow(hight, 2));
-	private int mhr = 220 - age;
 
 	Athlte()
 	{
@@ -141,6 +140,12 @@ class Athlte
 
 	}
 
+	/**
+	 * @param newName
+	 * @param newHight
+	 * @param newWeight
+	 * @param age
+	 */
 	Athlte(String newName, double newHight, double newWeight, int age)
 	{
 		this.name = newName;
@@ -179,6 +184,11 @@ class Athlte
 		return this.weight;
 	}
 
+	double getAthlteAge()
+	{
+		return this.age;
+	}
+
 	double getAthlteHight()
 	{
 		return this.hight;
@@ -192,14 +202,7 @@ class Team
 
 	private int athleteCount;
 	private String teamName;
-	public Athlte[] teamList = new Athlte[athleteCount];
-
-	private String name;
-	private double hight;
-	private double weight;
-	private int age;
-	private double bmi = weight * 703 / (Math.pow(hight, 2));
-	private int mhr = 220 - age;
+	public static Athlte[] teamList = new Athlte[4];
 
 	Team()
 	{
@@ -224,19 +227,42 @@ class Team
 		return athleteCount;
 	}
 
-	public void displayAthleteResults()
+	public static void displayAthleteResults()
 	{
+		System.out.println("========== Team Summary==========");
 		System.out.println();
-		System.out.println(name);
-		System.out.printf("BMI: %.2f", bmi);
-		System.out.println();
-		System.out.println("Catagory: ");
-		bmiCatagorys(bmi);
-		System.out.println();
-		System.out.println("MHR: " + mhr);
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			System.out.println(teamList[i].getAthlteName());
+			System.out.printf("BMI: %.2f", makeBMI(i));
+			System.out.println();
+			System.out.print("Catagory: ");
+			bmiCatagorys(makeBMI(i));
+			System.out.println("MHR: " + makeMHR(i));
+			System.out.println();
+			System.out.println();
+		}
+
 	}
 
-	public void bmiCatagorys(double count)
+	public static double makeBMI(int count)
+	{
+		double bmi = teamList[(int) count].getAthlteWeight() * 703
+				/ (Math.pow(teamList[(int) count].getAthlteHight(), 2));
+		return bmi;
+	}
+
+	public static double makeMHR(int count)
+	{
+		double mhr = 220 - teamList[(int) count].getAthlteAge();
+		return mhr;
+	}
+
+	/**
+	 * @param count
+	 */
+	public static void bmiCatagorys(double count)
 	{
 
 		final double BMI_OVER_FACTOR = 25;
@@ -256,10 +282,70 @@ class Team
 
 	}
 
-	public Athlte addAthlte(Athlte object, int counter)
+	/**
+	 * @param object
+	 * @param counter
+	 */
+	public void addAthlte(Athlte object, int counter)
+	{
+		String spaceMax = "Team full";
+		if (counter < teamList.length)
+		{
+			teamList[counter] = object;
+		} else
+		{
+			System.out.println(spaceMax);
+		}
+
+	}
+
+	public static double calculateAverageMaxHeartRate()
 	{
 
-		return this.teamList[counter] = object;
+		double sum = 0;
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			sum += 220 - teamList[(int) i].getAthlteAge();
+		}
+
+		double average = sum / teamList.length;
+		return average;
+	}
+
+	/**
+	 * 
+	 */
+
+	public static void displayAthletesOutsideNormalBMI()
+	{
+		double sum = 0;
+		double[] weightIn = new double[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			weightIn[i] = teamList[(int) i].getAthlteWeight();
+			sum += teamList[(int) i].getAthlteWeight() * 703 / (Math.pow(teamList[(int) i].getAthlteHight(), 2));
+		}
+
+		double average = sum / teamList.length;
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			if (weightIn[i] > average)
+			{ // Count if number[i] > average
+
+				System.out.println("athlete " + teamList[i].getAthlteName() + " is above group average");
+			} else if (weightIn[i] < average)
+			{ // Count if number[i] > average
+
+				System.out.println("athlete " + teamList[i].getAthlteName() + " is below group average");
+			} else
+			{
+				System.out.println("none of athletes are out of average");
+			}
+
+		}
 
 	}
 
