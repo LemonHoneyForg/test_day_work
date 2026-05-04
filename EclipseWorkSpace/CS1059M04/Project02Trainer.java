@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Project02Trainer
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
 		displayProgramSummary();
 
@@ -86,7 +86,7 @@ public class Project02Trainer
 	}
 
 	@SuppressWarnings("static-access")
-	public static void runAnalysis(Team team) throws FileNotFoundException
+	public static void runAnalysis(Team team) throws IOException
 	{
 		System.out.println("\n========== Team Analysis ==========");
 		System.out.println("Team: " + team.getTeamName());
@@ -99,11 +99,11 @@ public class Project02Trainer
 		double avg = team.calculateAverageMaxHeartRate();
 		System.out.println("\nAverage Max Heart Rate: " + avg);
 //
-//		team.displayAthletesAboveAverageMHR(avg);
-//		team.displayHighestMHR();
+		team.displayAthletesAboveAverageMHR(avg);
+		team.displayHighestMHR();
 //		team.displaySmallestLargestHeight();
-//		String outputFileName = team.getTeamName() + ".txt";
-//		team.writeAthletesToFile(outputFileName);
+		String outputFileName = team.getTeamName() + ".txt";
+		team.writeAthletesToFile(outputFileName);
 
 	}
 
@@ -197,6 +197,9 @@ class Athlte
 }
 
 // ================= ADD TEAM CLASS =================
+/**
+ * 
+ */
 class Team
 {
 
@@ -261,6 +264,9 @@ class Team
 
 	/**
 	 * @param count
+	 * 
+	 *              Categorically organizes BMI so it can be updated with new
+	 *              information
 	 */
 	public static void bmiCatagorys(double count)
 	{
@@ -285,6 +291,10 @@ class Team
 	/**
 	 * @param object
 	 * @param counter
+	 * 
+	 *                This method is used after an athlete object has been fully
+	 *                updated and is ready to add to the team all it does is take
+	 *                the existing athlete class and adds it to an array in team
 	 */
 	public void addAthlte(Athlte object, int counter)
 	{
@@ -299,6 +309,60 @@ class Team
 
 	}
 
+	// WIP
+	/**
+	 * creates an array of all Heights within a team and scans through it for the
+	 * smallest value then outputs it all the way up to the largest value in the
+	 * list
+	 */
+	public static void displaySmallestLargestHeight()
+	{
+		double[] heightList = new double[teamList.length];
+		double[] smallList = new double[teamList.length];
+		double sum = 0;
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			heightList[i] = teamList[i].getAthlteHight();
+		}
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			if (heightList[teamList.length - 1] < heightList[i])
+			{
+				smallList[i] = heightList[0];
+			}
+		}
+
+		System.out.print("the highest MHR is: " + sum);
+	}
+
+	/**
+	 * The highest max heart rate by going through an already existing array of
+	 * every athlete heart rate then posts the highest one found with minimal error
+	 */
+	public static void displayHighestMHR()
+	{
+		double[] MhrList = makeMHRArry();
+		double sum = 0;
+		for (int i = 0; i < teamList.length; i++)
+		{
+			if (MhrList[i] > calculateAverageMaxHeartRate())
+			{ // Count if number[i] > average
+
+				sum = MhrList[i];
+			}
+
+		}
+		System.out.print("the highest MHR is: " + sum);
+	}
+
+	/**
+	 * @return
+	 * 
+	 *         Pulls the relevant data for calculating max heart rate and outputs
+	 *         the average of the teams Collective max heart rates
+	 */
 	public static double calculateAverageMaxHeartRate()
 	{
 
@@ -314,13 +378,62 @@ class Team
 	}
 
 	/**
+	 * @return
+	 * 
+	 *         not established as primarily necessary to the program but implemented
+	 *         to reduce redundancy where possible Within other programs pertaining
+	 *         to max heart rate
+	 */
+	public static double[] makeMHRArry()
+	{
+		double sum = 0;
+		double[] MhrList = new double[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			sum += 220 - teamList[(int) i].getAthlteAge();
+			MhrList[i] = sum;
+		}
+		return MhrList;
+	}
+
+	// WIP
+	/**
+	 * @param avrg Pulls the max heart rate of every athlete and displays the ones
+	 *             that are above the calculated average as predefined by another
+	 *             method
+	 */
+	public static void displayAthletesAboveAverageMHR(double avrg)
+	{
+
+		double[] MhrList = makeMHRArry();
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			if (MhrList[i] > avrg)
+			{ // Count if number[i] > average
+
+				System.out.println("athlete " + teamList[i].getAthlteName() + " is above group average");
+			}
+		}
+
+	}
+
+	/**
+	 * Pulls the max heart rate of every athlete and displays the ones that are
+	 * above the calculated average
+	 */
+	/**
 	 * 
 	 */
-
 	public static void displayAthletesOutsideNormalBMI()
 	{
 		double sum = 0;
 		double[] weightIn = new double[teamList.length];
+
+		// Stores list of bmi's temporarily for use calculating what is outside of the
+		// average
 
 		for (int i = 0; i < teamList.length; i++)
 		{
@@ -333,11 +446,11 @@ class Team
 		for (int i = 0; i < teamList.length; i++)
 		{
 			if (weightIn[i] > average)
-			{ // Count if number[i] > average
+			{
 
 				System.out.println("athlete " + teamList[i].getAthlteName() + " is above group average");
 			} else if (weightIn[i] < average)
-			{ // Count if number[i] > average
+			{
 
 				System.out.println("athlete " + teamList[i].getAthlteName() + " is below group average");
 			} else
@@ -349,6 +462,14 @@ class Team
 
 	}
 
+	/**
+	 * @param fileContent
+	 * @throws IOException
+	 * 
+	 *                     Writes existing athletes in the program to file for
+	 *                     demonstration of knowledge with reading and writing to
+	 *                     txt
+	 */
 	void writeAthletesToFile(String fileContent) throws IOException
 	{
 		FileWriter writer = new FileWriter("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\newfile.txt");
