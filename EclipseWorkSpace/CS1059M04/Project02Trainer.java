@@ -9,6 +9,11 @@ import java.util.Scanner;
 
 public class Project02Trainer
 {
+	/**
+	 * @param args
+	 * @throws Exception Main body of the program that executes other methods and
+	 *                   calls files
+	 */
 	public static void main(String[] args) throws Exception
 	{
 		displayProgramSummary();
@@ -54,16 +59,29 @@ public class Project02Trainer
 		System.out.println("\nEnd of program");
 	}
 
+	/**
+	 * @param fileName
+	 * @param team
+	 * @throws FileNotFoundException
+	 * 
+	 *                               Scans through each line in the properly
+	 *                               formatted txt file for the relevant information
+	 *                               name weight height and age and then converts
+	 *                               them into variables to be stored in the athlete
+	 *                               object
+	 * 
+	 */
 	public static void teamSetUp(String fileName, Team team) throws FileNotFoundException
 	{
 		File file = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team2.txt");
 		Scanner scan = new Scanner(file);
 		String fileContent = "";
-		Athlte athlte1 = new Athlte();
+
 		int intTemp = 0;
 		int count = 0;
 		while (scan.hasNextLine())
 		{
+			Athlte athlte1 = new Athlte();
 			fileContent = fileContent.concat(scan.next() + "\n");
 			athlte1.setName(fileContent);
 
@@ -85,6 +103,15 @@ public class Project02Trainer
 		scan.close();
 	}
 
+	/**
+	 * @param team
+	 * @throws IOException
+	 * 
+	 *                     Execute a series of analytical/Demonstration methods to
+	 *                     prove that the program meets all the checkpoints required
+	 *                     for the assignment
+	 * 
+	 */
 	@SuppressWarnings("static-access")
 	public static void runAnalysis(Team team) throws IOException
 	{
