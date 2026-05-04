@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Scanner;
 /*
  * 
@@ -131,7 +132,7 @@ public class Project02Trainer
 //
 		team.displayAthletesAboveAverageMHR(avg);
 		team.displayHighestMHR();
-//		team.displaySmallestLargestHeight();
+		team.displaySmallestLargestHeight();
 		String outputFileName = team.getTeamName() + ".txt";
 		team.writeAthletesToFile(outputFileName);
 
@@ -358,8 +359,8 @@ class Team
 			heightList[i] = teamList[i].getAthlteHight();
 
 		}
-
-		System.out.print(Math.min(heightList[0], heightList.length));
+		Arrays.sort(heightList);
+		System.out.println(Arrays.toString(heightList));
 	}
 
 	/**
@@ -425,14 +426,24 @@ class Team
 	{
 
 		double[] MhrList = makeMHRArry();
-
+		String[] overAvrg = new String[teamList.length];
+		boolean check = false;
 		for (int i = 0; i < teamList.length; i++)
 		{
 			if (MhrList[i] > avrg)
-			{ // Count if number[i] > average
-
-				System.out.println("athlete " + teamList[i].getAthlteName() + " is above group average");
+			{
+				overAvrg[i] = teamList[i].getAthlteName();
+				check = true;
 			}
+
+		}
+		if (check == true)
+		{
+			System.out.println(overAvrg);
+			System.out.println("athlete's are above group average");
+		} else
+		{
+			System.out.println("0 athlete's are above group average");
 		}
 
 	}
@@ -448,34 +459,46 @@ class Team
 	{
 		double sum = 0;
 		double[] weightIn = new double[teamList.length];
-
+		String[] overAvrg = new String[teamList.length];
+		String[] underAvrg = new String[teamList.length];
 		// Stores list of bmi's temporarily for use calculating what is outside of the
 		// average
 
 		for (int i = 0; i < teamList.length; i++)
 		{
-			weightIn[i] = teamList[(int) i].getAthlteWeight();
-			sum += teamList[(int) i].getAthlteWeight() * 703 / (Math.pow(teamList[(int) i].getAthlteHight(), 2));
+			weightIn[i] = makeBMI(i);
 		}
 
 		double average = sum / teamList.length;
-		int count = 0;
+		boolean posCount = false;
+		boolean minCount = false;
 		for (int i = 0; i < teamList.length; i++)
 		{
 			if (weightIn[i] > average)
 			{
+				overAvrg[i] = teamList[i].getAthlteName();
 
-				System.out.println("athlete " + teamList[i].getAthlteName() + " is above group average");
-				count++;
+				posCount = true;
 			} else if (weightIn[i] < average)
 			{
+				underAvrg[i] = teamList[i].getAthlteName();
 
-				System.out.println("athlete " + teamList[i].getAthlteName() + " is below group average");
-				count++;
+				minCount = true;
 			}
 
 		}
-		if (count > 0)
+
+		if (minCount == false)
+		{
+			System.out.println(overAvrg);
+			System.out.println("athlete is above group average");
+
+		} else if (posCount == false)
+		{
+			System.out.println(underAvrg);
+			System.out.println("athlete is below group average");
+
+		} else
 		{
 			System.out.println("none of athletes are out of average");
 		}
