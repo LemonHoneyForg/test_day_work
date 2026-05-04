@@ -99,6 +99,7 @@ public class Project02Trainer
 				team.addAthlte(athlte1, count);
 				count++;
 			}
+
 		}
 		scan.close();
 	}
@@ -249,7 +250,7 @@ class Team
 
 	String getTeamName()
 	{
-		return teamName;
+		return this.teamName;
 	}
 
 	int getAthleteCount()
@@ -264,6 +265,7 @@ class Team
 
 		for (int i = 0; i < teamList.length; i++)
 		{
+			// printing more then one name do to only one athlete object being overloaded
 			System.out.println(teamList[i].getAthlteName());
 			System.out.printf("BMI: %.2f", makeBMI(i));
 			System.out.println();
@@ -345,23 +347,13 @@ class Team
 	public static void displaySmallestLargestHeight()
 	{
 		double[] heightList = new double[teamList.length];
-		double[] smallList = new double[teamList.length];
-		double sum = 0;
+
 		for (int i = 0; i < teamList.length; i++)
 		{
 
 			heightList[i] = teamList[i].getAthlteHight();
 		}
-
-		for (int i = 0; i < teamList.length; i++)
-		{
-			if (heightList[teamList.length - 1] < heightList[i])
-			{
-				smallList[i] = heightList[0];
-			}
-		}
-
-		System.out.print("the highest MHR is: " + sum);
+		System.out.print(Math.min(heightList[0], heightList.length));
 	}
 
 	/**
@@ -371,17 +363,9 @@ class Team
 	public static void displayHighestMHR()
 	{
 		double[] MhrList = makeMHRArry();
-		double sum = 0;
-		for (int i = 0; i < teamList.length; i++)
-		{
-			if (MhrList[i] > calculateAverageMaxHeartRate())
-			{ // Count if number[i] > average
 
-				sum = MhrList[i];
-			}
+		System.out.print("the highest MHR is: " + Math.max(MhrList[0], MhrList.length));
 
-		}
-		System.out.print("the highest MHR is: " + sum);
 	}
 
 	/**
