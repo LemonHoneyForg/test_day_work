@@ -78,11 +78,13 @@ public class Project02Trainer
 		String fileContent = "";
 
 		int intTemp = 0;
-		int count = 0;
+
 		while (scan.hasNextLine())
 		{
 			Athlte athlte1 = new Athlte();
+			fileContent = "";
 			fileContent = fileContent.concat(scan.next() + "\n");
+
 			athlte1.setName(fileContent);
 
 			while (scan.hasNextDouble())
@@ -96,8 +98,8 @@ public class Project02Trainer
 				tempValue = 0;
 				intTemp = scan.nextInt();
 				athlte1.setAge(intTemp);
-				team.addAthlte(athlte1, count);
-				count++;
+				team.addAthlte(athlte1);
+
 			}
 
 		}
@@ -154,10 +156,10 @@ public class Project02Trainer
 class Athlte
 {
 
-	public String name;
-	public double hight;
-	public double weight;
-	public int age;
+	private String name;
+	private double hight;
+	private double weight;
+	private int age;
 
 	Athlte()
 	{
@@ -325,12 +327,14 @@ class Team
 	 *                updated and is ready to add to the team all it does is take
 	 *                the existing athlete class and adds it to an array in team
 	 */
-	public void addAthlte(Athlte object, int counter)
+	@SuppressWarnings("static-access")
+	public void addAthlte(Athlte object)
 	{
 		String spaceMax = "Team full";
-		if (counter < teamList.length)
+		if (athleteCount < teamList.length)
 		{
-			teamList[counter] = object;
+			this.teamList[athleteCount] = object;
+			athleteCount++;
 		} else
 		{
 			System.out.println(spaceMax);
@@ -352,7 +356,9 @@ class Team
 		{
 
 			heightList[i] = teamList[i].getAthlteHight();
+
 		}
+
 		System.out.print(Math.min(heightList[0], heightList.length));
 	}
 
@@ -453,24 +459,26 @@ class Team
 		}
 
 		double average = sum / teamList.length;
-
+		int count = 0;
 		for (int i = 0; i < teamList.length; i++)
 		{
 			if (weightIn[i] > average)
 			{
 
 				System.out.println("athlete " + teamList[i].getAthlteName() + " is above group average");
+				count++;
 			} else if (weightIn[i] < average)
 			{
 
 				System.out.println("athlete " + teamList[i].getAthlteName() + " is below group average");
-			} else
-			{
-				System.out.println("none of athletes are out of average");
+				count++;
 			}
 
 		}
-
+		if (count > 0)
+		{
+			System.out.println("none of athletes are out of average");
+		}
 	}
 
 	/**
