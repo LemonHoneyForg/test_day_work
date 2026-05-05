@@ -428,7 +428,7 @@ class Team
 		double[] MhrList = makeMHRArry();
 		String[] overAvrg = new String[teamList.length];
 		boolean check = false;
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < MhrList.length; i++)
 		{
 			if (MhrList[i] > avrg)
 			{
@@ -439,7 +439,10 @@ class Team
 		}
 		if (check == true)
 		{
-			System.out.println(overAvrg);
+			for (int i = 0; i < MhrList.length; i++)
+			{
+				System.out.print(overAvrg[i]);
+			}
 			System.out.println("athlete's are above group average");
 		} else
 		{
@@ -472,7 +475,8 @@ class Team
 		double average = sum / teamList.length;
 		boolean posCount = false;
 		boolean minCount = false;
-		for (int i = 0; i < teamList.length; i++)
+
+		for (int i = 0; i < underAvrg.length; i++)
 		{
 			if (weightIn[i] > average)
 			{
@@ -490,12 +494,21 @@ class Team
 
 		if (minCount == false)
 		{
-			System.out.println(overAvrg);
+			for (int i = 0; i < underAvrg.length; i++)
+			{
+				System.out.print(overAvrg[i]);
+			}
+
 			System.out.println("athlete is above group average");
 
 		} else if (posCount == false)
 		{
-			System.out.println(underAvrg);
+
+			for (int i = 0; i < underAvrg.length; i++)
+			{
+				System.out.println(underAvrg[i]);
+			}
+
 			System.out.println("athlete is below group average");
 
 		} else
