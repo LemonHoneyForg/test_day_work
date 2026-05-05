@@ -359,8 +359,10 @@ class Team
 			heightList[i] = teamList[i].getAthlteHight();
 
 		}
+		System.out.println("athlete's heights from min to max is: ");
 		Arrays.sort(heightList);
 		System.out.println(Arrays.toString(heightList));
+
 	}
 
 	/**
@@ -371,7 +373,7 @@ class Team
 	{
 		double[] MhrList = makeMHRArry();
 
-		System.out.print("the highest MHR is: " + Math.max(MhrList[0], MhrList.length));
+		System.out.println("the highest MHR is: " + Math.max(MhrList[0], MhrList.length));
 
 	}
 
