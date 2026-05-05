@@ -20,8 +20,8 @@ public class Project02Trainer
 		displayProgramSummary();
 
 		// ===== TEST 1 =====
-		// File file = new File("C:\\GitHub
-		// Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\captmidn.txt");
+		File file1 = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team1.txt");
+		File file2 = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team2.txt");
 		String fileName = "team1.txt";
 
 		try
@@ -30,7 +30,7 @@ public class Project02Trainer
 
 			Team team = new Team("Nuggets", 6);
 
-			teamSetUp(fileName, team);
+			teamSetUp(fileName, team, file1);
 
 			runAnalysis(team);
 
@@ -48,7 +48,7 @@ public class Project02Trainer
 
 			Team team = new Team("Team CS", 4);
 
-			teamSetUp(fileName, team);
+			teamSetUp(fileName, team, file2);
 
 			runAnalysis(team);
 
@@ -72,9 +72,9 @@ public class Project02Trainer
 	 *                               object
 	 * 
 	 */
-	public static void teamSetUp(String fileName, Team team) throws FileNotFoundException
+	public static void teamSetUp(String fileName, Team team, File file) throws FileNotFoundException
 	{
-		File file = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team2.txt");
+
 		Scanner scan = new Scanner(file);
 		String fileContent = "";
 
@@ -269,7 +269,7 @@ class Team
 		for (int i = 0; i < teamList.length; i++)
 		{
 			// printing more then one name do to only one athlete object being overloaded
-			System.out.println(teamList[i].getAthlteName());
+			System.out.print(teamList[i].getAthlteName());
 			System.out.printf("BMI: %.2f", makeBMI(i));
 			System.out.println();
 			System.out.print("Catagory: ");
@@ -281,6 +281,53 @@ class Team
 
 	}
 
+	public static double[] makeMHRArry()
+	{
+		double sum = 0;
+		double[] MhrList = new double[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			sum += 220 - teamList[(int) i].getAthlteAge();
+			MhrList[i] = sum;
+		}
+		return MhrList;
+	}
+
+	/**
+	 * creates an array of all Heights within a team and scans through it for the
+	 * smallest value then outputs it all the way up to the largest value in the
+	 * list
+	 */
+	public static double[] makeHeight()
+	{
+		double[] heightList = new double[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			heightList[i] = teamList[i].getAthlteHight();
+
+		}
+
+		return heightList;
+	}
+
+	public static String[] makeNameList()
+	{
+		String[] mhr = new String[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			mhr[i] = teamList[i].getAthlteName();
+
+		}
+
+		return mhr;
+	}
+
 	public static double makeBMI(int count)
 	{
 		double bmi = teamList[(int) count].getAthlteWeight() * 703
@@ -288,6 +335,13 @@ class Team
 		return bmi;
 	}
 
+	/**
+	 * @return
+	 * 
+	 *         not established as primarily necessary to the program but implemented
+	 *         to reduce redundancy where possible Within other programs pertaining
+	 *         to max heart rate
+	 */
 	public static double makeMHR(int count)
 	{
 		double mhr = 220 - teamList[(int) count].getAthlteAge();
@@ -343,25 +397,18 @@ class Team
 
 	}
 
-	// WIP
-	/**
-	 * creates an array of all Heights within a team and scans through it for the
-	 * smallest value then outputs it all the way up to the largest value in the
-	 * list
-	 */
 	public static void displaySmallestLargestHeight()
 	{
-		double[] heightList = new double[teamList.length];
+		double[] heightList = makeHeight();
+		String[] nameList = makeNameList();
 
-		for (int i = 0; i < teamList.length; i++)
-		{
-
-			heightList[i] = teamList[i].getAthlteHight();
-
-		}
-		System.out.println("athlete's heights from min to max is: ");
 		Arrays.sort(heightList);
-		System.out.println(Arrays.toString(heightList));
+		Arrays.sort(nameList);
+		System.out.println("Shortest Athlete: ");
+		System.out.println(nameList[0] + "-" + heightList[0]);
+
+		System.out.println("Tallest Athlete: ");
+		System.out.println(nameList[nameList.length - 1] + "-" + heightList[heightList.length - 1]);
 
 	}
 
@@ -397,27 +444,6 @@ class Team
 		return average;
 	}
 
-	/**
-	 * @return
-	 * 
-	 *         not established as primarily necessary to the program but implemented
-	 *         to reduce redundancy where possible Within other programs pertaining
-	 *         to max heart rate
-	 */
-	public static double[] makeMHRArry()
-	{
-		double sum = 0;
-		double[] MhrList = new double[teamList.length];
-
-		for (int i = 0; i < teamList.length; i++)
-		{
-
-			sum += 220 - teamList[(int) i].getAthlteAge();
-			MhrList[i] = sum;
-		}
-		return MhrList;
-	}
-
 	// WIP
 	/**
 	 * @param avrg Pulls the max heart rate of every athlete and displays the ones
@@ -439,16 +465,18 @@ class Team
 			}
 
 		}
+
 		if (check == true)
 		{
-			for (int i = 0; i < MhrList.length; i++)
+
+			for (int i = 1; i <= overAvrg.length - 1; i++)
 			{
 				System.out.print(overAvrg[i]);
 			}
-			System.out.println("athlete's are above group average");
+			System.out.println("athlete's are above group average MHR");
 		} else
 		{
-			System.out.println("0 athlete's are above group average");
+			System.out.println("0 athlete's are above group average MHR");
 		}
 
 	}
@@ -501,7 +529,7 @@ class Team
 				System.out.print(overAvrg[i]);
 			}
 
-			System.out.println("athlete is above group average");
+			System.out.println("athlete is above group average BMI");
 
 		} else if (posCount == false)
 		{
@@ -511,11 +539,11 @@ class Team
 				System.out.println(underAvrg[i]);
 			}
 
-			System.out.println("athlete is below group average");
+			System.out.println("athlete is below group average BMI");
 
 		} else
 		{
-			System.out.println("none of athletes are out of average");
+			System.out.println("none of athletes are out of average BMI");
 		}
 	}
 
