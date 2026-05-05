@@ -558,6 +558,8 @@ class Team
 	void writeAthletesToFile(String fileContent) throws IOException
 	{
 		FileWriter writer = new FileWriter("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\newfile.txt");
+		System.out.println("Results written to file:");
+		System.out.println("C:\\\\GitHub Repos\\\\JavaRepo\\\\EclipseWorkSpace\\\\personal_tests\\\\newfile.txt");
 
 		writer.write(fileContent);
 		writer.close();
