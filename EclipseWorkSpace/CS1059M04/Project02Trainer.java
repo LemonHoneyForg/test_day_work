@@ -20,8 +20,6 @@ public class Project02Trainer
 		displayProgramSummary();
 
 		// ===== TEST 1 =====
-		File file1 = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team1.txt");
-		File file2 = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\team2.txt");
 		String fileName = "team1.txt";
 
 		try
@@ -30,7 +28,7 @@ public class Project02Trainer
 
 			Team team = new Team("Nuggets", 6);
 
-			teamSetUp(fileName, team, file1);
+			teamSetUp(fileName, team);
 
 			runAnalysis(team);
 
@@ -48,7 +46,7 @@ public class Project02Trainer
 
 			Team team = new Team("Team CS", 4);
 
-			teamSetUp(fileName, team, file2);
+			teamSetUp(fileName, team);
 
 			runAnalysis(team);
 
@@ -72,10 +70,10 @@ public class Project02Trainer
 	 *                               object
 	 * 
 	 */
-	public static void teamSetUp(String fileName, Team team, File file) throws FileNotFoundException
+	public static void teamSetUp(String fileName, Team team) throws FileNotFoundException
 	{
-
-		Scanner scan = new Scanner(file);
+		File file1 = new File("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\CS1059M04\\" + fileName);
+		Scanner scan = new Scanner(file1);
 		String fileContent = "";
 
 		int intTemp = 0;
