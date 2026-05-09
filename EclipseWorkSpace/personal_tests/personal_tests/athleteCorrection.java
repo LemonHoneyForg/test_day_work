@@ -1,17 +1,23 @@
+/**
+ * 
+ */
+package personal_tests;
+
+/**
+ * 
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.io.Serializable;
 /*
  * 
  */
 
-public class Project02Trainer
+public class athleteCorrection
 {
 	/**
 	 * @param args
@@ -117,7 +123,7 @@ public class Project02Trainer
 	 *                     for the assignment
 	 * 
 	 */
-	@SuppressWarnings("static-access")
+
 	public static void runAnalysis(Team team) throws IOException
 	{
 		System.out.println("\n========== Team Analysis ==========");
@@ -131,7 +137,7 @@ public class Project02Trainer
 		double avg = team.calculateAverageMaxHeartRate();
 		System.out.println("\nAverage Max Heart Rate: " + avg);
 //
-		team.displayAthletesAboveAverageMHR(avg);
+		team.displayAthletesAboveAverageMHR((int) avg);
 		team.displayHighestMHR();
 		team.displaySmallestLargestHeight();
 		String outputFileName = team.getTeamName() + ".txt";
@@ -161,6 +167,8 @@ class Athlte
 	private String name;
 	private double hight;
 	private double weight;
+	private double bmi;
+	private int mhr;
 	private int age;
 
 	Athlte()
@@ -216,7 +224,7 @@ class Athlte
 		return this.weight;
 	}
 
-	double getAthlteAge()
+	int getAthlteAge()
 	{
 		return this.age;
 	}
@@ -226,148 +234,17 @@ class Athlte
 		return this.hight;
 	}
 
-}
-
-// ================= ADD TEAM CLASS =================
-/**
- * 
- */
-@SuppressWarnings("serial")
-class Team implements java.io.Serializable
-{
-
-	private int athleteCount;
-	private String teamName;
-	public static Athlte[] teamList = new Athlte[4];
-
-	Team()
+	int calculateMaxHeartRate()
 	{
-		teamName = "luna";
-		teamList = new Athlte[4];
-
+		mhr = 220 - getAthlteAge();
+		return this.mhr;
 	}
 
-	Team(String newName, int newAthleteCount)
+	double calculateBMI()
 	{
-		this.teamName = newName;
-
-	}
-
-	@SuppressWarnings("static-access")
-	private void writeObject(java.io.ObjectOutputStream stream) throws IOException
-	{
-		stream.writeObject(this.teamName);
-		stream.writeObject(this.teamList);
-	}
-
-	@SuppressWarnings("static-access")
-	private void readObject(java.io.ObjectInputStream stream) throws IOException, ClassNotFoundException
-	{
-		this.teamName = (String) stream.readObject();
-		this.teamList = (Athlte[]) stream.readObject();
-	}
-
-	@SuppressWarnings("static-access")
-	public String toString()
-	{
-		return this.teamName + "\t" + this.teamList + "\t";
-	}
-
-	String getTeamName()
-	{
-		return this.teamName;
-	}
-
-	int getAthleteCount()
-	{
-		return athleteCount;
-	}
-
-	public static void displayAthleteResults()
-	{
-		System.out.println("========== Team Summary==========");
-		System.out.println();
-
-		for (int i = 0; i < teamList.length; i++)
-		{
-			// printing more then one name do to only one athlete object being overloaded
-			System.out.print(teamList[i].getAthlteName());
-			System.out.printf("BMI: %.2f", makeBMI(i));
-			System.out.println();
-			System.out.print("Catagory: ");
-			bmiCatagorys(makeBMI(i));
-			System.out.println("MHR: " + makeMHR(i));
-			System.out.println();
-			System.out.println();
-		}
-
-	}
-
-	public static double[] makeMHRArry()
-	{
-		double sum = 0;
-		double[] MhrList = new double[teamList.length];
-
-		for (int i = 0; i < teamList.length; i++)
-		{
-
-			sum += 220 - teamList[(int) i].getAthlteAge();
-			MhrList[i] = sum;
-		}
-		return MhrList;
-	}
-
-	/**
-	 * creates an array of all Heights within a team and scans through it for the
-	 * smallest value then outputs it all the way up to the largest value in the
-	 * list
-	 */
-	public static double[] makeHeight()
-	{
-		double[] heightList = new double[teamList.length];
-
-		for (int i = 0; i < teamList.length; i++)
-		{
-
-			heightList[i] = teamList[i].getAthlteHight();
-
-		}
-
-		return heightList;
-	}
-
-	public static String[] makeNameList()
-	{
-		String[] mhr = new String[teamList.length];
-
-		for (int i = 0; i < teamList.length; i++)
-		{
-
-			mhr[i] = teamList[i].getAthlteName();
-
-		}
-
-		return mhr;
-	}
-
-	public static double makeBMI(int count)
-	{
-		double bmi = teamList[(int) count].getAthlteWeight() * 703
-				/ (Math.pow(teamList[(int) count].getAthlteHight(), 2));
-		return bmi;
-	}
-
-	/**
-	 * @return
-	 * 
-	 *         not established as primarily necessary to the program but implemented
-	 *         to reduce redundancy where possible Within other programs pertaining
-	 *         to max heart rate
-	 */
-	public static double makeMHR(int count)
-	{
-		double mhr = 220 - teamList[(int) count].getAthlteAge();
-		return mhr;
+		bmi = getAthlteWeight() * 703 / (Math.pow(getAthlteHight(), 2));
+		;
+		return this.bmi;
 	}
 
 	/**
@@ -376,7 +253,7 @@ class Team implements java.io.Serializable
 	 *              Categorically organizes BMI so it can be updated with new
 	 *              information
 	 */
-	public static void bmiCatagorys(double count)
+	public void bmiCatagorys(double count)
 	{
 
 		final double BMI_OVER_FACTOR = 25;
@@ -396,6 +273,116 @@ class Team implements java.io.Serializable
 
 	}
 
+	void displayAthleteResults()
+	{
+		System.out.println("========== Team Summary==========");
+		System.out.println();
+
+		System.out.print(getAthlteName());
+		System.out.printf("BMI: %.2f", calculateBMI());
+		System.out.println();
+		System.out.print("Catagory: ");
+		bmiCatagorys(calculateBMI());
+		System.out.println("MHR: " + calculateBMI());
+		System.out.println();
+		System.out.println();
+
+	}
+
+	/**
+	 * Pulls the max heart rate of every athlete and displays the ones that are
+	 * above the calculated average
+	 */
+	/**
+	 * 
+	 */
+
+	/**
+	 * creates an array of all Heights within a team and scans through it for the
+	 * smallest value then outputs it all the way up to the largest value in the
+	 * list
+	 */
+
+}
+
+// ================= ADD TEAM CLASS =================
+/**
+ * 
+ */
+class Team
+{
+
+	private int athleteCount;
+	private String teamName;
+	public Athlte[] teamList = new Athlte[4];
+
+	Team()
+	{
+		teamName = "luna";
+		teamList = new Athlte[4];
+		athleteCount = 0;
+	}
+
+	Team(String newName, int newAthleteCount)
+	{
+		this.teamName = newName;
+
+	}
+
+	String getTeamName()
+	{
+		return this.teamName;
+	}
+
+	int getAthleteCount()
+	{
+		return athleteCount;
+	}
+
+	void displayAthleteResults()
+	{
+		System.out.println("========== Team Summary==========");
+		System.out.println();
+		for (int i = 0; i < teamList.length; i++)
+		{
+			System.out.print(teamList[i].getAthlteName());
+			System.out.printf("BMI: %.2f", teamList[i].calculateBMI());
+			System.out.println();
+			System.out.print("Catagory: ");
+			teamList[i].bmiCatagorys(teamList[i].calculateBMI());
+			System.out.println("MHR: " + teamList[i].calculateBMI());
+			System.out.println();
+			System.out.println();
+		}
+	}
+
+	public int calculateAverageMaxHeartRate()
+	{
+		int sum = 0;
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			sum += teamList[i].calculateMaxHeartRate();
+			sum = sum / teamList.length;
+		}
+		return sum;
+	}
+
+	public String[] makeNameList()
+	{
+		String[] nameList = new String[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			nameList[i] = teamList[i].getAthlteName();
+
+		}
+
+		return nameList;
+	}
+
 	/**
 	 * @param object
 	 * @param counter
@@ -404,7 +391,7 @@ class Team implements java.io.Serializable
 	 *                updated and is ready to add to the team all it does is take
 	 *                the existing athlete class and adds it to an array in team
 	 */
-	@SuppressWarnings("static-access")
+
 	public void addAthlte(Athlte object)
 	{
 		String spaceMax = "Team full";
@@ -419,7 +406,21 @@ class Team implements java.io.Serializable
 
 	}
 
-	public static void displaySmallestLargestHeight()
+	public double[] makeHeight()
+	{
+		double[] heightList = new double[teamList.length];
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+
+			heightList[i] = teamList[i].getAthlteHight();
+
+		}
+
+		return heightList;
+	}
+
+	public void displaySmallestLargestHeight()
 	{
 		double[] heightList = makeHeight();
 		String[] nameList = makeNameList();
@@ -438,11 +439,9 @@ class Team implements java.io.Serializable
 	 * The highest max heart rate by going through an already existing array of
 	 * every athlete heart rate then posts the highest one found with minimal error
 	 */
-	public static void displayHighestMHR()
+	public void displayHighestMHR()
 	{
-		double[] MhrList = makeMHRArry();
-
-		System.out.println("the highest MHR is: " + Math.max(MhrList[0], MhrList.length));
+		System.out.println("the highest MHR is: " + Math.max(teamList[0].calculateMaxHeartRate(), teamList.length));
 
 	}
 
@@ -452,19 +451,6 @@ class Team implements java.io.Serializable
 	 *         Pulls the relevant data for calculating max heart rate and outputs
 	 *         the average of the teams Collective max heart rates
 	 */
-	public static double calculateAverageMaxHeartRate()
-	{
-
-		double sum = 0;
-		for (int i = 0; i < teamList.length; i++)
-		{
-
-			sum += 220 - teamList[(int) i].getAthlteAge();
-		}
-
-		double average = sum / teamList.length;
-		return average;
-	}
 
 	// WIP
 	/**
@@ -472,13 +458,16 @@ class Team implements java.io.Serializable
 	 *             that are above the calculated average as predefined by another
 	 *             method
 	 */
-	public static void displayAthletesAboveAverageMHR(double avrg)
+	public void displayAthletesAboveAverageMHR(int avrg)
 	{
-
-		double[] MhrList = makeMHRArry();
+		int[] MhrList = new int[athleteCount];
+		for (int i = 0; i < teamList.length; i++)
+		{
+			MhrList[i] = teamList[i].calculateMaxHeartRate();
+		}
 		String[] overAvrg = new String[teamList.length];
 		boolean check = false;
-		for (int i = 0; i < MhrList.length; i++)
+		for (int i = 0; i < teamList.length; i++)
 		{
 			if (MhrList[i] > avrg)
 			{
@@ -503,14 +492,7 @@ class Team implements java.io.Serializable
 
 	}
 
-	/**
-	 * Pulls the max heart rate of every athlete and displays the ones that are
-	 * above the calculated average
-	 */
-	/**
-	 * 
-	 */
-	public static void displayAthletesOutsideNormalBMI()
+	public void displayAthletesOutsideNormalBMI()
 	{
 		double sum = 0;
 		double[] weightIn = new double[teamList.length];
@@ -521,7 +503,7 @@ class Team implements java.io.Serializable
 
 		for (int i = 0; i < teamList.length; i++)
 		{
-			weightIn[i] = makeBMI(i);
+			weightIn[i] = teamList[i].calculateBMI();
 		}
 
 		double average = sum / teamList.length;
@@ -584,23 +566,6 @@ class Team implements java.io.Serializable
 		System.out.println("C:\\\\GitHub Repos\\\\JavaRepo\\\\EclipseWorkSpace\\\\personal_tests\\\\newfile.txt");
 
 		writer.write(fileContent);
-		HailMary(teamList, "C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\newfile.txt");
 		writer.close();
-	}
-
-	
-	void HailMary(Athlte[] teamList, String fileContent)
-	{
-		try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileContent)))
-		{
-			oos.writeObject(teamList); // Save the entire array
-		} catch (IOException e)
-		{
-			e.printStackTrace();
-		}
-	}
-	public class MyObject implements Serializable {
-	    private static final long serialVersionUID = 1L;
-	    // fields, constructor, methods
 	}
 }
