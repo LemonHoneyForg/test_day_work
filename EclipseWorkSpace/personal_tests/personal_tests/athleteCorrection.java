@@ -301,22 +301,6 @@ class Athlte
 		return catagorys;
 	}
 
-	void displayAthleteResults()
-	{
-		System.out.println("========== Team Summary==========");
-		System.out.println();
-
-		System.out.print(getAthlteName());
-		System.out.printf("BMI: %.2f", calculateBMI());
-		System.out.println();
-		System.out.print("Catagory: ");
-		bmiCatagorys(calculateBMI());
-		System.out.println("MHR: " + calculateBMI());
-		System.out.println();
-		System.out.println();
-
-	}
-
 	/**
 	 * Pulls the max heart rate of every athlete and displays the ones that are
 	 * above the calculated average
