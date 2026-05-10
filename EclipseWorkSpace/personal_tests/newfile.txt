@@ -4,30 +4,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -35,30 +35,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -76,30 +76,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -107,30 +107,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -155,30 +155,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -186,30 +186,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -227,30 +227,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -258,30 +258,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -307,30 +307,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -338,30 +338,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -379,30 +379,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -410,30 +410,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -458,30 +458,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -489,30 +489,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb
@@ -530,30 +530,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 team2.txt.txt 	
@@ -561,30 +561,30 @@ team2.txt.txt
 ========== Team Summary==========
 Deb
 
- BMI: %.2f
-42.90771484375
-Catagory: 
+ BMI: 
+ 42.91
+ Category: 
 High
 MHR: 161
 Monty
 
- BMI: %.2f
-17.49688888888889
-Catagory: 
+ BMI: 
+ 17.50
+ Category: 
 Underweight
 MHR: 200
 Bintu
 
- BMI: %.2f
-30.12857142857143
-Catagory: 
+ BMI: 
+ 30.13
+ Category: 
 High
 MHR: 185
 Muffin
 
- BMI: %.2f
-21.69753086419753
-Catagory: 
+ BMI: 
+ 21.70
+ Category: 
 Normal
 MHR: 195
 Deb

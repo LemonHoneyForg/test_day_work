@@ -11,6 +11,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Scanner;
 /*
@@ -29,10 +30,11 @@ public class athleteCorrection
 		displayProgramSummary();
 
 		// ===== TEST 1 =====
-		String fileName = "team1.txt";
 
+		String fileName = "team1.txt";
 		try
 		{
+			fileName = "team1.txt";
 			System.out.println("\nTesting file: " + fileName);
 
 			Team team = new Team("Nuggets", 6);
@@ -127,7 +129,7 @@ public class athleteCorrection
 	{
 		System.out.println("\n========== Team Analysis ==========");
 		System.out.println("Team: " + team.getTeamName());
-		System.out.println("Total Athletes: " + team.getAthleteCount());
+		System.out.println("Total Athletes: " + team.getTeamSize());
 		System.out.println();
 
 		team.displayAthleteResults();
@@ -142,8 +144,17 @@ public class athleteCorrection
 
 	}
 
+	/**
+	 * @param fileName
+	 * @param team
+	 * @throws IOException
+	 * 
+	 *                     the back_end version of runAnalysis. does the same
+	 *                     operation just writes to file for later use
+	 */
 	public static void writeAnalysis(String fileName, Team team) throws IOException
 	{
+
 		String outputFileName = "";
 		outputFileName += "\n" + fileName + ".txt \t";
 		outputFileName += team.writeAthleteResults(outputFileName);
@@ -255,6 +266,7 @@ class Athlte
 
 	double calculateBMI()
 	{
+
 		bmi = getAthlteWeight() * 703 / (Math.pow(getAthlteHight(), 2));
 		;
 		return this.bmi;
@@ -329,20 +341,24 @@ class Team
 {
 
 	private int athleteCount;
+	private int teamSize;
 	private String teamName;
-	public Athlte[] teamList = new Athlte[4];
+	private Athlte[] teamList;
 
 	Team()
 	{
-		teamName = "luna";
-		teamList = new Athlte[4];
-		athleteCount = 0;
+		this.teamName = "luna";
+		this.teamSize = 6;
+		this.teamList = new Athlte[teamSize];
+		this.athleteCount = 0;
+
 	}
 
-	Team(String newName, int newAthleteCount)
+	Team(String newName, int newTeamSize)
 	{
 		this.teamName = newName;
-
+		this.teamList = new Athlte[newTeamSize];
+		this.teamSize = newTeamSize;
 	}
 
 	String getTeamName()
@@ -352,21 +368,26 @@ class Team
 
 	int getAthleteCount()
 	{
-		return athleteCount;
+		return this.athleteCount;
+	}
+
+	int getTeamSize()
+	{
+		return this.teamSize;
 	}
 
 	void displayAthleteResults()
 	{
 		System.out.println("========== Team Summary==========");
 		System.out.println();
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
-			System.out.print(teamList[i].getAthlteName());
-			System.out.printf("BMI: %.2f", teamList[i].calculateBMI());
+			System.out.print(this.teamList[i].getAthlteName());
+			System.out.printf("BMI: %.2f", this.teamList[i].calculateBMI());
 			System.out.println();
 			System.out.print("Catagory: ");
-			teamList[i].bmiCatagorys(teamList[i].calculateBMI());
-			System.out.println("MHR: " + teamList[i].calculateBMI());
+			this.teamList[i].bmiCatagorys(this.teamList[i].calculateBMI());
+			System.out.println("MHR: " + this.teamList[i].calculateBMI());
 			System.out.println();
 			System.out.println();
 		}
@@ -374,18 +395,18 @@ class Team
 
 	public String writeAthleteResults(String fileContent) throws IOException
 	{
-
+		DecimalFormat df = new DecimalFormat("0.00");
 		fileContent += "\n========== Team Summary==========";
 
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
-			fileContent += ("\n" + teamList[i].getAthlteName());
-			fileContent += ("\n BMI: %.2f");
-			fileContent += ("\n" + String.valueOf(teamList[i].calculateBMI()));
-			fileContent += ("\nCatagory: ");
-			fileContent += ("\n" + teamList[i].bmiCatagorys(teamList[i].calculateBMI()));
+			fileContent += ("\n" + this.teamList[i].getAthlteName());
+			fileContent += ("\n BMI: ");
+			fileContent += ("\n " + String.valueOf(df.format(this.teamList[i].calculateBMI())));
+			fileContent += ("\n Category: ");
+			fileContent += ("\n" + this.teamList[i].bmiCatagorys(this.teamList[i].calculateBMI()));
 
-			fileContent += ("\nMHR: " + teamList[i].calculateMaxHeartRate());
+			fileContent += ("\nMHR: " + this.teamList[i].calculateMaxHeartRate());
 
 		}
 		return fileContent;
@@ -395,23 +416,23 @@ class Team
 	{
 		int sum = 0;
 
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
 
-			sum += teamList[i].calculateMaxHeartRate();
-			sum = sum / teamList.length;
+			sum += this.teamList[i].calculateMaxHeartRate();
+			sum = sum / this.teamList.length;
 		}
 		return sum;
 	}
 
 	public String[] makeNameList()
 	{
-		String[] nameList = new String[teamList.length];
+		String[] nameList = new String[this.teamList.length];
 
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
 
-			nameList[i] = teamList[i].getAthlteName();
+			nameList[i] = this.teamList[i].getAthlteName();
 
 		}
 
@@ -430,10 +451,10 @@ class Team
 	public void addAthlte(Athlte object)
 	{
 		String spaceMax = "Team full";
-		if (athleteCount < teamList.length)
+		if (this.athleteCount < this.teamList.length)
 		{
 			this.teamList[athleteCount] = object;
-			athleteCount++;
+			this.athleteCount++;
 		} else
 		{
 			System.out.println(spaceMax);
@@ -443,12 +464,12 @@ class Team
 
 	public double[] makeHeight()
 	{
-		double[] heightList = new double[teamList.length];
+		double[] heightList = new double[this.teamList.length];
 
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
 
-			heightList[i] = teamList[i].getAthlteHight();
+			heightList[i] = this.teamList[i].getAthlteHight();
 
 		}
 
@@ -476,7 +497,8 @@ class Team
 	 */
 	public void displayHighestMHR()
 	{
-		System.out.println("the highest MHR is: " + Math.max(teamList[0].calculateMaxHeartRate(), teamList.length));
+		System.out.println(
+				"the highest MHR is: " + Math.max(this.teamList[0].calculateMaxHeartRate(), this.teamList.length));
 
 	}
 
@@ -496,17 +518,17 @@ class Team
 	public void displayAthletesAboveAverageMHR(int avrg)
 	{
 		int[] MhrList = new int[athleteCount];
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
-			MhrList[i] = teamList[i].calculateMaxHeartRate();
+			MhrList[i] = this.teamList[i].calculateMaxHeartRate();
 		}
-		String[] overAvrg = new String[teamList.length];
+		String[] overAvrg = new String[this.teamList.length];
 		boolean check = false;
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
 			if (MhrList[i] > avrg)
 			{
-				overAvrg[i] = teamList[i].getAthlteName();
+				overAvrg[i] = this.teamList[i].getAthlteName();
 				check = true;
 			}
 
@@ -530,18 +552,18 @@ class Team
 	public void displayAthletesOutsideNormalBMI()
 	{
 		double sum = 0;
-		double[] weightIn = new double[teamList.length];
-		String[] overAvrg = new String[teamList.length];
-		String[] underAvrg = new String[teamList.length];
+		double[] weightIn = new double[this.teamList.length];
+		String[] overAvrg = new String[this.teamList.length];
+		String[] underAvrg = new String[this.teamList.length];
 		// Stores list of bmi's temporarily for use calculating what is outside of the
 		// average
 
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
-			weightIn[i] = teamList[i].calculateBMI();
+			weightIn[i] = this.teamList[i].calculateBMI();
 		}
 
-		double average = sum / teamList.length;
+		double average = sum / this.teamList.length;
 		boolean posCount = false;
 		boolean minCount = false;
 
@@ -549,12 +571,12 @@ class Team
 		{
 			if (weightIn[i] > average)
 			{
-				overAvrg[i] = teamList[i].getAthlteName();
+				overAvrg[i] = this.teamList[i].getAthlteName();
 
 				posCount = true;
 			} else if (weightIn[i] < average)
 			{
-				underAvrg[i] = teamList[i].getAthlteName();
+				underAvrg[i] = this.teamList[i].getAthlteName();
 
 				minCount = true;
 			}
@@ -612,7 +634,8 @@ class Team
 	public String writeHighestMHR(String fileContent) throws IOException
 	{
 
-		fileContent += (" \nthe highest MHR is: " + Math.max(teamList[0].calculateMaxHeartRate(), teamList.length));
+		fileContent += (" \nthe highest MHR is: "
+				+ Math.max(this.teamList[0].calculateMaxHeartRate(), this.teamList.length));
 
 		return fileContent;
 	}
@@ -634,18 +657,18 @@ class Team
 	public String writeAthletesAboveAverageMHR(int avrg, String fileContent) throws IOException
 	{
 
-		int[] MhrList = new int[athleteCount];
-		for (int i = 0; i < teamList.length; i++)
+		int[] MhrList = new int[this.teamList.length];
+		for (int i = 0; i < this.teamList.length; i++)
 		{
-			MhrList[i] = teamList[i].calculateMaxHeartRate();
+			MhrList[i] = this.teamList[i].calculateMaxHeartRate();
 		}
-		String[] overAvrg = new String[teamList.length];
+		String[] overAvrg = new String[this.teamList.length];
 		boolean check = false;
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
 			if (MhrList[i] > avrg)
 			{
-				overAvrg[i] = teamList[i].getAthlteName();
+				overAvrg[i] = this.teamList[i].getAthlteName();
 				check = true;
 			}
 
@@ -669,18 +692,18 @@ class Team
 	public String writeAthletesOutsideNormalBMI(String fileContent) throws IOException
 	{
 		double sum = 0;
-		double[] weightIn = new double[teamList.length];
-		String[] overAvrg = new String[teamList.length];
-		String[] underAvrg = new String[teamList.length];
+		double[] weightIn = new double[this.teamList.length];
+		String[] overAvrg = new String[this.teamList.length];
+		String[] underAvrg = new String[this.teamList.length];
 		// Stores list of bmi's temporarily for use calculating what is outside of the
 		// average
 
-		for (int i = 0; i < teamList.length; i++)
+		for (int i = 0; i < this.teamList.length; i++)
 		{
-			weightIn[i] = teamList[i].calculateBMI();
+			weightIn[i] = this.teamList[i].calculateBMI();
 		}
 
-		double average = sum / teamList.length;
+		double average = sum / this.teamList.length;
 		boolean posCount = false;
 		boolean minCount = false;
 
@@ -688,12 +711,12 @@ class Team
 		{
 			if (weightIn[i] > average)
 			{
-				overAvrg[i] = teamList[i].getAthlteName();
+				overAvrg[i] = this.teamList[i].getAthlteName();
 
 				posCount = true;
 			} else if (weightIn[i] < average)
 			{
-				underAvrg[i] = teamList[i].getAthlteName();
+				underAvrg[i] = this.teamList[i].getAthlteName();
 
 				minCount = true;
 			}
