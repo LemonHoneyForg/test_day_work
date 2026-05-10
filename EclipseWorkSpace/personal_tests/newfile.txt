@@ -1,1 +1,613 @@
-Team CS.txt
+
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+Monty
+
+Bintu
+
+Muffin
+
+ athlete's are above group average MHR
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+Monty
+
+Bintu
+
+Muffin
+
+ athlete's are above group average MHR 
+the highest MHR is: 161
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+Monty
+
+Bintu
+
+Muffin
+
+ athlete's are above group average MHR
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+team2.txt.txt 	
+team2.txt.txt 	
+========== Team Summary==========
+Deb
+
+ BMI: %.2f
+42.90771484375
+Catagory: 
+High
+MHR: 161
+Monty
+
+ BMI: %.2f
+17.49688888888889
+Catagory: 
+Underweight
+MHR: 200
+Bintu
+
+ BMI: %.2f
+30.12857142857143
+Catagory: 
+High
+MHR: 185
+Muffin
+
+ BMI: %.2f
+21.69753086419753
+Catagory: 
+Normal
+MHR: 195
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+ athlete is above group average BMI
+Average Max Heart Rate: 64.0
+Monty
+
+Bintu
+
+Muffin
+
+ athlete's are above group average MHR 
+the highest MHR is: 161
+ Shortest Athlete: 
+Bintu
+-64.0
+ Tallest Athlete: 
+Muffin
+-75.0

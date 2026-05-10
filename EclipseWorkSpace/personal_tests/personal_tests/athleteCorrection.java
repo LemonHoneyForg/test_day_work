@@ -40,7 +40,7 @@ public class athleteCorrection
 			teamSetUp(fileName, team);
 
 			runAnalysis(team);
-
+			writeAnalysis(fileName, team);
 		} catch (FileNotFoundException exception)
 		{
 			System.out.println("Error: Unable to find file " + fileName);
@@ -58,7 +58,7 @@ public class athleteCorrection
 			teamSetUp(fileName, team);
 
 			runAnalysis(team);
-
+			writeAnalysis(fileName, team);
 		} catch (FileNotFoundException exception)
 		{
 			System.out.println("Error: Unable to find file " + fileName);
@@ -123,7 +123,6 @@ public class athleteCorrection
 	 *                     for the assignment
 	 * 
 	 */
-
 	public static void runAnalysis(Team team) throws IOException
 	{
 		System.out.println("\n========== Team Analysis ==========");
@@ -140,9 +139,23 @@ public class athleteCorrection
 		team.displayAthletesAboveAverageMHR((int) avg);
 		team.displayHighestMHR();
 		team.displaySmallestLargestHeight();
-		String outputFileName = team.getTeamName() + ".txt";
-		team.writeAthletesToFile(outputFileName);
 
+	}
+
+	public static void writeAnalysis(String fileName, Team team) throws IOException
+	{
+		String outputFileName = "";
+		outputFileName += "\n" + fileName + ".txt \t";
+		outputFileName += team.writeAthleteResults(outputFileName);
+		outputFileName += team.writeAthletesOutsideNormalBMI(outputFileName);
+//
+		double avg = team.calculateAverageMaxHeartRate();
+		outputFileName += (String.valueOf("\nAverage Max Heart Rate: " + avg));
+//
+		outputFileName += team.writeAthletesAboveAverageMHR((int) avg, outputFileName);
+		outputFileName += team.writeHighestMHR(outputFileName);
+		outputFileName += team.writeSmallestLargestHeight(outputFileName);
+		team.writeAthletesToFile(outputFileName);
 	}
 
 	// ================= DISPLAY =================
@@ -253,24 +266,27 @@ class Athlte
 	 *              Categorically organizes BMI so it can be updated with new
 	 *              information
 	 */
-	public void bmiCatagorys(double count)
+	public String bmiCatagorys(double count)
 	{
-
+		String catagorys = "";
 		final double BMI_OVER_FACTOR = 25;
 
 		final double BMI_STANDARD_FACTOR = 18.5;
 
 		if (count >= BMI_OVER_FACTOR)
 		{
-			System.out.println("High");
+			catagorys = "High";
 		} else if (count >= BMI_STANDARD_FACTOR)
 		{
 			System.out.println("Normal");
-		} else
+			catagorys = "Normal";
+		} else if (count <= BMI_STANDARD_FACTOR)
 		{
 			System.out.println("Underweight");
+			catagorys = "Underweight";
 		}
 
+		return catagorys;
 	}
 
 	void displayAthleteResults()
@@ -354,6 +370,25 @@ class Team
 			System.out.println();
 			System.out.println();
 		}
+	}
+
+	public String writeAthleteResults(String fileContent) throws IOException
+	{
+
+		fileContent += "\n========== Team Summary==========";
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			fileContent += ("\n" + teamList[i].getAthlteName());
+			fileContent += ("\n BMI: %.2f");
+			fileContent += ("\n" + String.valueOf(teamList[i].calculateBMI()));
+			fileContent += ("\nCatagory: ");
+			fileContent += ("\n" + teamList[i].bmiCatagorys(teamList[i].calculateBMI()));
+
+			fileContent += ("\nMHR: " + teamList[i].calculateMaxHeartRate());
+
+		}
+		return fileContent;
 	}
 
 	public int calculateAverageMaxHeartRate()
@@ -551,6 +586,146 @@ class Team
 		}
 	}
 
+	public String writeSmallestLargestHeight(String fileContent) throws IOException
+	{
+
+		double[] heightList = makeHeight();
+		String[] nameList = makeNameList();
+
+		Arrays.sort(heightList);
+		Arrays.sort(nameList);
+
+		fileContent += ("\n Shortest Athlete: ");
+		fileContent += ("\n" + nameList[0] + "-" + heightList[0]);
+
+		fileContent += ("\n Tallest Athlete: ");
+		fileContent += ("\n" + nameList[nameList.length - 1] + "-" + heightList[heightList.length - 1]);
+		return fileContent;
+	}
+
+	/**
+	 * The highest max heart rate by going through an already existing array of
+	 * every athlete heart rate then posts the highest one found with minimal error
+	 * 
+	 * @throws IOException
+	 */
+	public String writeHighestMHR(String fileContent) throws IOException
+	{
+
+		fileContent += (" \nthe highest MHR is: " + Math.max(teamList[0].calculateMaxHeartRate(), teamList.length));
+
+		return fileContent;
+	}
+
+	/**
+	 * @return
+	 * 
+	 *         Pulls the relevant data for calculating max heart rate and outputs
+	 *         the average of the teams Collective max heart rates
+	 */
+
+	// WIP
+	/**
+	 * @param avrg Pulls the max heart rate of every athlete and displays the ones
+	 *             that are above the calculated average as predefined by another
+	 *             method
+	 * @throws IOException
+	 */
+	public String writeAthletesAboveAverageMHR(int avrg, String fileContent) throws IOException
+	{
+
+		int[] MhrList = new int[athleteCount];
+		for (int i = 0; i < teamList.length; i++)
+		{
+			MhrList[i] = teamList[i].calculateMaxHeartRate();
+		}
+		String[] overAvrg = new String[teamList.length];
+		boolean check = false;
+		for (int i = 0; i < teamList.length; i++)
+		{
+			if (MhrList[i] > avrg)
+			{
+				overAvrg[i] = teamList[i].getAthlteName();
+				check = true;
+			}
+
+		}
+
+		if (check == true)
+		{
+
+			for (int i = 1; i <= overAvrg.length - 1; i++)
+			{
+				fileContent += ("\n" + String.valueOf(overAvrg[i]));
+			}
+			fileContent += ("\n athlete's are above group average MHR");
+		} else
+		{
+			fileContent += ("\n 0 athlete's are above group average MHR");
+		}
+		return fileContent;
+	}
+
+	public String writeAthletesOutsideNormalBMI(String fileContent) throws IOException
+	{
+		double sum = 0;
+		double[] weightIn = new double[teamList.length];
+		String[] overAvrg = new String[teamList.length];
+		String[] underAvrg = new String[teamList.length];
+		// Stores list of bmi's temporarily for use calculating what is outside of the
+		// average
+
+		for (int i = 0; i < teamList.length; i++)
+		{
+			weightIn[i] = teamList[i].calculateBMI();
+		}
+
+		double average = sum / teamList.length;
+		boolean posCount = false;
+		boolean minCount = false;
+
+		for (int i = 0; i < underAvrg.length; i++)
+		{
+			if (weightIn[i] > average)
+			{
+				overAvrg[i] = teamList[i].getAthlteName();
+
+				posCount = true;
+			} else if (weightIn[i] < average)
+			{
+				underAvrg[i] = teamList[i].getAthlteName();
+
+				minCount = true;
+			}
+
+		}
+
+		if (minCount == false)
+		{
+			for (int i = 0; i < underAvrg.length; i++)
+			{
+				fileContent += ("\n" + String.valueOf((overAvrg[i])));
+			}
+
+			fileContent += ("\n athlete is above group average BMI");
+
+		} else if (posCount == false)
+		{
+
+			for (int i = 0; i < underAvrg.length; i++)
+			{
+				fileContent += ("\n" + String.valueOf(underAvrg[i]));
+			}
+
+			fileContent += ("\n athlete is below group average BMI");
+
+		} else
+		{
+			fileContent += ("\n none of athletes are out of average BMI");
+		}
+		return fileContent;
+	}
+
 	/**
 	 * @param fileContent
 	 * @throws IOException
@@ -566,6 +741,7 @@ class Team
 		System.out.println("C:\\\\GitHub Repos\\\\JavaRepo\\\\EclipseWorkSpace\\\\personal_tests\\\\newfile.txt");
 
 		writer.write(fileContent);
+
 		writer.close();
 	}
 }
