@@ -20,6 +20,7 @@ import java.util.Scanner;
 
 public class athleteCorrection
 {
+
 	/**
 	 * @param args
 	 * @throws Exception Main body of the program that executes other methods and
@@ -28,7 +29,7 @@ public class athleteCorrection
 	public static void main(String[] args) throws Exception
 	{
 		displayProgramSummary();
-
+		String outputFileName = "";
 		// ===== TEST 1 =====
 
 		String fileName = "team1.txt";
@@ -42,7 +43,7 @@ public class athleteCorrection
 			teamSetUp(fileName, team);
 
 			runAnalysis(team);
-			writeAnalysis(fileName, team);
+			writeAnalysis(team.getTeamName(), team, outputFileName);
 		} catch (FileNotFoundException exception)
 		{
 			System.out.println("Error: Unable to find file " + fileName);
@@ -55,12 +56,13 @@ public class athleteCorrection
 		{
 			System.out.println("\nTesting file: " + fileName);
 
-			Team team = new Team("Team CS", 4);
+			Team team = new Team("Team CS", 5);
 
 			teamSetUp(fileName, team);
 
 			runAnalysis(team);
-			writeAnalysis(fileName, team);
+			writeAnalysis(team.getTeamName(), team, outputFileName);
+
 		} catch (FileNotFoundException exception)
 		{
 			System.out.println("Error: Unable to find file " + fileName);
@@ -152,21 +154,30 @@ public class athleteCorrection
 	 *                     the back_end version of runAnalysis. does the same
 	 *                     operation just writes to file for later use
 	 */
-	public static void writeAnalysis(String fileName, Team team) throws IOException
+	public static void writeAnalysis(String fileName, Team team, String fileadd) throws IOException
 	{
 
-		String outputFileName = "";
-		outputFileName += "\n" + fileName + ".txt \t";
-		outputFileName += team.writeAthleteResults(outputFileName);
-		outputFileName += team.writeAthletesOutsideNormalBMI(outputFileName);
-//
+		FileWriter writer = new FileWriter("C:\\GitHub Repos\\JavaRepo\\EclipseWorkSpace\\personal_tests\\newfile.txt");
+
+		fileadd += fileadd.concat("\n" + fileName);
+		fileadd += fileadd.concat(team.writeAthleteResults(fileadd));
+
+		fileadd += fileadd.concat(team.writeAthletesOutsideNormalBMI(fileadd));
+
 		double avg = team.calculateAverageMaxHeartRate();
-		outputFileName += (String.valueOf("\nAverage Max Heart Rate: " + avg));
-//
-		outputFileName += team.writeAthletesAboveAverageMHR((int) avg, outputFileName);
-		outputFileName += team.writeHighestMHR(outputFileName);
-		outputFileName += team.writeSmallestLargestHeight(outputFileName);
-		team.writeAthletesToFile(outputFileName);
+
+		fileadd += fileadd.concat(String.valueOf("\nAverage Max Heart Rate: " + avg));
+
+		fileadd += fileadd.concat(team.writeAthletesAboveAverageMHR((int) avg, fileadd));
+
+		fileadd += fileadd.concat(team.writeHighestMHR(fileadd));
+
+		fileadd += fileadd.concat(team.writeSmallestLargestHeight(fileadd));
+
+		writer.write(fileadd);
+		System.out.println("Results written to file:");
+		System.out.println("C:\\\\GitHub Repos\\\\JavaRepo\\\\EclipseWorkSpace\\\\personal_tests\\\\newfile.txt");
+		writer.close();
 	}
 
 	// ================= DISPLAY =================
@@ -390,7 +401,7 @@ class Team
 			fileContent += ("\n Category: ");
 			fileContent += ("\n" + this.teamList[i].bmiCatagorys(this.teamList[i].calculateBMI()));
 
-			fileContent += ("\nMHR: " + this.teamList[i].calculateMaxHeartRate());
+			fileContent += ("\n MHR: " + this.teamList[i].calculateMaxHeartRate());
 
 		}
 		return fileContent;

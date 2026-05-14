@@ -1,6 +1,7 @@
 
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -8,30 +9,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -39,28 +48,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -68,11 +123,13 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -80,30 +137,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -111,28 +176,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -140,18 +251,537 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
 Monty
 
 Bintu
 
 Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
 
  athlete's are above group average MHR
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -159,30 +789,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -190,28 +828,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -219,11 +903,13 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -231,30 +917,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -262,28 +956,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -291,19 +1031,1318 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
 Monty
 
 Bintu
 
 Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete's are above group average MHR
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
 
  athlete's are above group average MHR 
 the highest MHR is: 161
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -311,30 +2350,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -342,28 +2389,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -371,11 +2464,13 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -383,30 +2478,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -414,28 +2517,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -443,18 +2592,537 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
 Monty
 
 Bintu
 
 Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
 
  athlete's are above group average MHR
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -462,30 +3130,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -493,28 +3169,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -522,11 +3244,13 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
-team2.txt.txt 	
-team2.txt.txt 	
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -534,30 +3258,38 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
-team2.txt.txt 	
-team2.txt.txt 	
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
 ========== Team Summary==========
 Deb
 
@@ -565,28 +3297,74 @@ Deb
  42.91
  Category: 
 High
-MHR: 161
+ MHR: 161
 Monty
 
  BMI: 
  17.50
  Category: 
 Underweight
-MHR: 200
+ MHR: 200
 Bintu
 
  BMI: 
  30.13
  Category: 
 High
-MHR: 185
+ MHR: 185
 Muffin
 
  BMI: 
  21.70
  Category: 
 Normal
-MHR: 195
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
 Deb
 
 Monty
@@ -594,14 +3372,3653 @@ Monty
 Bintu
 
 Muffin
+
+Sparky
 
  athlete is above group average BMI
-Average Max Heart Rate: 64.0
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
 Monty
 
 Bintu
 
 Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete's are above group average MHR
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete's are above group average MHR 
+the highest MHR is: 161
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete's are above group average MHR
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete's are above group average MHR
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Team CS
+Team CS
+Team CS
+========== Team Summary==========
+Deb
+
+ BMI: 
+ 42.91
+ Category: 
+High
+ MHR: 161
+Monty
+
+ BMI: 
+ 17.50
+ Category: 
+Underweight
+ MHR: 200
+Bintu
+
+ BMI: 
+ 30.13
+ Category: 
+High
+ MHR: 185
+Muffin
+
+ BMI: 
+ 21.70
+ Category: 
+Normal
+ MHR: 195
+Sparky
+
+ BMI: 
+ 45.61
+ Category: 
+High
+ MHR: 180
+Deb
+
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
+
+ athlete is above group average BMI
+Average Max Heart Rate: 45.0
+Monty
+
+Bintu
+
+Muffin
+
+Sparky
 
  athlete's are above group average MHR 
 the highest MHR is: 161
@@ -609,5 +7026,5 @@ the highest MHR is: 161
 Bintu
 -64.0
  Tallest Athlete: 
-Muffin
+Sparky
 -75.0
